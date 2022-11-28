@@ -6,7 +6,7 @@ import numpy as np
 from trajectory_toolkit.partitioners.PartitionerInterface import PartitionerInterface
 
 
-class Geohash_partitioner(PartitionerInterface):
+class Geohash(PartitionerInterface):
     """
     precision : number, default=7
     A value used by the partitioner to set the partitions size
@@ -20,15 +20,6 @@ class Geohash_partitioner(PartitionerInterface):
     def __init__(self, precision=7, verbose=True):
         self.precision = precision
         self.verbose = verbose
-    """
-    Controllo il formato dei dati, l'ordine deve essere: 
-    tid, class, time, c1, c2
-    """
-
-    def fit(self, X):
-        self._checkFormat(X)
-
-        return self
 
     """
     l'output sarà una lista di encodings della forma (X.shape[0], 1)
@@ -36,7 +27,8 @@ class Geohash_partitioner(PartitionerInterface):
 
     def transform(self, X: np.ndarray):
         self._checkFormat(X)
-        encodes = np.chararray((X.shape[0], 1), itemsize=self.precision)
+        #encodes = np.chararray(X.shape[0], itemsize=self.precision)
+        encodes = np.empty((X.shape[0]), dtype=F"U{self.precision}")
 
         if self.verbose: print(F"Encoding {X.shape[0]} points with precision {self.precision}", flush=True)
 

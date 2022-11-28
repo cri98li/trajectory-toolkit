@@ -4,15 +4,14 @@ from tqdm.auto import tqdm
 
 from trajectory_toolkit.normalizers.NormalizerInterface import NormalizerInterface
 
-class FirstPoint_normalizer(NormalizerInterface):
+class FirstPoint(NormalizerInterface):
     def _checkFormat(self, X):
         if X.shape[1] != 3:
             raise DataDimensionalityWarning(
                 "The input data must be in this form [[part, latitude, longitude]]")
 
-    def __init__(self, fillna=None, verbose=True):
+    def __init__(self, verbose=True):
         self.verbose = verbose
-        self.fillna = fillna
 
     def fit(self, X):
         self._checkFormat(X)
@@ -21,18 +20,20 @@ class FirstPoint_normalizer(NormalizerInterface):
 
     """
     l'input sarà:
-    partId, latitude, longitude
+    latitude, longitude
     """
 
-    def transform(self, X: np.ndarray):
+    def transform(self, part: np.ndarray, X: np.ndarray):
         X_res = X.copy()
 
-        first = (None, None, None)
-        for row in tqdm(X_res, disable=not self.verbose, position=0, leave=True):
-            if first[0] != row[0]:
-                first = row.copy()
+        first_part = None
+        first_coord = (None, None)
+        for i in tqdm(range(len(part)), disable=not self.verbose, position=0, leave=True):
+            if part[i] != first_part:
+                first_part = part[i]
+                first_coord = X[i]
 
-            row[1:] -= first[1:]
+            X_res[i] -= first_coord
 
         return X_res
 
