@@ -13,7 +13,7 @@ class TestAlgorithms(unittest.TestCase):
 
         part = Geohash(precision=7)
 
-        self.assertTrue(np.all(part.transform(array) == np.array([b"ttnfv2u"])))
+        self.assertTrue(np.all(part.transform(array) == np.array(["ttnfv2u"])))
 
 
 

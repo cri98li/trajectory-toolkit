@@ -1,8 +1,9 @@
-from sklearn.base import TransformerMixin
+import numpy as np
 
 
-class NormalizerInterface(TransformerMixin):
-    pass
+class NormalizerInterface():
 
+    def transform(self, part: np.ndarray, X: np.ndarray):
+        pass
     def _transformSingleTraj(self, X):
         pass

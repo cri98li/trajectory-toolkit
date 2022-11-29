@@ -2,12 +2,13 @@ import random
 
 import numpy as np
 
+from trajectory_toolkit.normalizers.NormalizerInterface import NormalizerInterface
 from trajectory_toolkit.selectors.SelectorInterface import SelectorInterface
 
 
 class Random(SelectorInterface):
 
-    def __init__(self, normalizer, movelets_per_class=10, verbose=True):
+    def __init__(self, normalizer: NormalizerInterface, movelets_per_class=10, verbose=True):
         self.verbose = verbose
         self.n_movelets = movelets_per_class
         self.normalizer = normalizer
@@ -22,17 +23,23 @@ class Random(SelectorInterface):
 
     def transform(self, tid: np.ndarray, classes: np.ndarray, time: np.ndarray, X: np.ndarray, partid: np.ndarray):
         selected = []
-        pk_array = np.array(list(zip(tid, partid)))
+        pk_array = np.array([(a,b) for a, b in zip(tid, partid)])
 
         for classe in np.unique(classes):
             to_choice = np.unique(pk_array[classes == classe], axis=0).tolist()
 
-            choices = random.sample(to_choice, self.n_movelets)
+            n = min(self.n_movelets, len(to_choice))
+
+            choices = random.sample(to_choice, n)
             selected.append(choices)
 
         selected = [el for lista in selected for el in lista]
 
-        to_keep_indeces = np.isin(pk_array, selected).all(axis=1)
+        to_keep_indeces = np.isin(pk_array, selected).all(axis=1)#TODO BUG?
 
-        return tid[to_keep_indeces], classes[to_keep_indeces], time[to_keep_indeces], X[to_keep_indeces], \
-               partid[to_keep_indeces]
+        X[to_keep_indeces] = self.normalizer.transform(pk_array[to_keep_indeces].tolist(), X[to_keep_indeces])
+        time[to_keep_indeces] = self.normalizer.transform(pk_array[to_keep_indeces].tolist(), time[to_keep_indeces])
+
+        pk_array = np.array([f"{a}{b}" for a, b in pk_array])
+
+        return pk_array[to_keep_indeces], classes[to_keep_indeces], time[to_keep_indeces], X[to_keep_indeces]

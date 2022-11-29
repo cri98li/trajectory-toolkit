@@ -1,5 +1,2 @@
-from sklearn.base import TransformerMixin
-
-
-class DistancerInterface(TransformerMixin):
+class DistancerInterface():
     pass
