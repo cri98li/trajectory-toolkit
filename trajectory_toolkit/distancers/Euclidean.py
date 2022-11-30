@@ -50,17 +50,42 @@ class Euclidean_distancer(DistancerInterface):
         return best_index, distances
 
 
+#35s
 def euclideanBestFitting(tr_time, tr_X, geo_time, geo_X, normalizer: NormalizerInterface, step=1):
     if len(geo_time) > len(tr_time):
         return euclideanBestFitting(geo_time, geo_X, tr_time, tr_X, normalizer)
 
+    #tr_X = tr_X.copy()
+
     bestScore = math.inf
     best_i = -1
     for i in range(0, len(tr_time) - len(geo_time) + 1, step):
-        tr_norm = normalizer._transformSingleTraj(tr_X[i:i + len(geo_time)].copy())
+        tr_norm = normalizer._transformSingleTraj(tr_X[i:i + len(geo_time)])
         dist = ((tr_norm - geo_X) ** 2).sum()
         if dist < bestScore:
             bestScore = dist
             best_i = i
 
-    return best_i, bestScore
+    return best_i, bestScore/len(geo_time)
+
+#60s
+"""def euclideanBestFitting(tr_time, tr_X, geo_time, geo_X, normalizer: NormalizerInterface, step=1):
+    if len(geo_time) > len(tr_time):
+        return euclideanBestFitting(geo_time, geo_X, tr_time, tr_X, normalizer)
+
+    #tr_X = tr_X.copy()
+
+    bestScore = math.inf
+    best_i = -1
+    for i in range(0, len(tr_time) - len(geo_time) + 1, step):
+        #tr_norm = normalizer._transformSingleTraj(tr_X[i:i + len(geo_time)])
+        dist=0
+        for tr_el, geo_el in zip(tr_X[i:i + len(geo_time)], geo_X):
+            dist = ((tr_el-geo_el-tr_X[i])**2).sum()
+            if dist > bestScore:
+                break
+        if dist < bestScore:
+            bestScore = dist
+            best_i = i
+
+    return best_i, bestScore/len(geo_time)"""

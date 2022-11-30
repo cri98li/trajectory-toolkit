@@ -1,4 +1,5 @@
 import multiprocessing
+
 from concurrent.futures import ProcessPoolExecutor
 import random
 from itertools import groupby
@@ -12,12 +13,12 @@ from trajectory_toolkit.selectors.SelectorInterface import SelectorInterface
 
 
 class RandomInformationGain(SelectorInterface):
-    def __init__(self, normalizer, bestFittingMeasure, top_k=10, movelets_per_class=100, trajectories_for_orderline=10,
+    def __init__(self, normalizer, bestFittingMeasure, top_k=10, n_geolet_per_class=100, estimation_trajectories_per_class=10,
                  n_neighbors=3, n_jobs=1, random_state=None, verbose=True):
         self.verbose = verbose
         self.n_jobs = n_jobs
-        self.n_movelets = movelets_per_class
-        self.n_trajectories = trajectories_for_orderline
+        self.n_geolet_per_class = n_geolet_per_class
+        self.n_trajectories = estimation_trajectories_per_class
         self.top_k = top_k
         self.n_neighbors = n_neighbors
         self.random_state = random_state
@@ -31,15 +32,19 @@ class RandomInformationGain(SelectorInterface):
 
     def transform(self, tid: np.ndarray, classes: np.ndarray, time: np.ndarray, X: np.ndarray, partid: np.ndarray):
 
-        geolets_tid, geolets_classes, geolets_time, geolets_X = Random(self.normalizer, movelets_per_class=self.n_movelets) \
+        geolets_tid, geolets_classes, geolets_time, geolets_X = Random(self.normalizer, n_geolet_per_class=self.n_geolet_per_class) \
             .transform(tid, classes, time, X, partid)
 
-        selected_tr_tid = np.unique(tid)
         #selected_tr_tid = selected_tr_tid[np.invert(np.isin(selected_tr_tid, geolets_tid))]
 
-        n = min(self.n_movelets, len(np.unique(tid)))
-
-        selected_rows = np.isin(tid, random.sample(selected_tr_tid.tolist(), n))
+        unique_classes = np.unique(classes)
+        selected_rows = np.full(len(tid), False)
+        n = 0
+        for classe in unique_classes:
+            tmp = np.vstack((tid, classes)).T
+            selected_tr_tid = np.unique(tmp[tmp[:, 1]==classe][:, 0])
+            n += min(self.n_geolet_per_class, len(selected_tr_tid))
+            selected_rows |= np.isin(tid, random.sample(selected_tr_tid.tolist(), min(self.n_geolet_per_class, len(selected_tr_tid))))
         selected_tr_tid = tid[selected_rows]
         selected_tr_time = time[selected_rows]
         selected_tr_X = X[selected_rows]
@@ -65,12 +70,12 @@ class RandomInformationGain(SelectorInterface):
         mutualInfo = mutual_info_classif(dist_matrix, selected_tr_classes, #[k for k, g in groupby(classes[selected_rows])],
                                          n_neighbors=self.n_neighbors, random_state=self.random_state)
 
-        ri_selected_tid = np.zeros(self.top_k)
+        ri_selected_tid = []
         for i, (score, geolet_tid) in enumerate(
                 sorted(zip(mutualInfo, np.unique(geolets_tid)), key=lambda x: x[0], reverse=True)):
             if i >= self.top_k:
                 break
-            ri_selected_tid[i] = geolet_tid
+            ri_selected_tid.append(geolet_tid)
             if self.verbose:
                 print(F"{i}.\t score={score}")
 

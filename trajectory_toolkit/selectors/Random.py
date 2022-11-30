@@ -8,9 +8,9 @@ from trajectory_toolkit.selectors.SelectorInterface import SelectorInterface
 
 class Random(SelectorInterface):
 
-    def __init__(self, normalizer: NormalizerInterface, movelets_per_class=10, verbose=True):
+    def __init__(self, normalizer: NormalizerInterface, n_geolet_per_class=10, verbose=True):
         self.verbose = verbose
-        self.n_movelets = movelets_per_class
+        self.n_geolets = n_geolet_per_class
         self.normalizer = normalizer
 
     def fit(self, X):
@@ -28,14 +28,14 @@ class Random(SelectorInterface):
         for classe in np.unique(classes):
             to_choice = np.unique(pk_array[classes == classe], axis=0).tolist()
 
-            n = min(self.n_movelets, len(to_choice))
+            n = min(self.n_geolets, len(to_choice))
 
             choices = random.sample(to_choice, n)
             selected.append(choices)
 
         selected = [el for lista in selected for el in lista]
 
-        to_keep_indeces = np.isin(pk_array, selected).all(axis=1)#TODO BUG?
+        to_keep_indeces = (pk_array[:, None] == selected).all(-1).any(-1) #TODO BUG?
 
         X[to_keep_indeces] = self.normalizer.transform(pk_array[to_keep_indeces].tolist(), X[to_keep_indeces])
         time[to_keep_indeces] = self.normalizer.transform(pk_array[to_keep_indeces].tolist(), time[to_keep_indeces])

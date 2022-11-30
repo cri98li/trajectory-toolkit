@@ -4,7 +4,7 @@ from datetime import datetime
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-import trajectory_toolkit.distancers.Euclidean_distancer
+import trajectory_toolkit.distancers.Euclidean
 from trajectory_toolkit.geolet.Geolet import Geolet
 
 class TestAlgorithms(unittest.TestCase):
@@ -80,9 +80,10 @@ class TestAlgorithms(unittest.TestCase):
                                                      stratify=df.groupby(by=["tid"]).max().reset_index()["class"],
                                                      random_state=3)
         start = datetime.now()
-        transform = Geolet(precision=6, geolet_per_class=100, selector='MutualInformation', top_k=10,
+        transform = Geolet(precision=6, geolet_per_class=150, selector='MutualInformation', top_k=10,
                            trajectory_for_stats=100,
-                           bestFittingMeasure=trajectory_toolkit.distancers.Euclidean_distancer.euclideanBestFitting,
+                           bestFittingMeasure=trajectory_toolkit.distancers.InterpolatedRouteDistance.interpolatedRootDistanceBestFitting,
+                           distance='IRD',
                            verbose=True, n_jobs=12)
 
         X = df.drop(columns="class").values

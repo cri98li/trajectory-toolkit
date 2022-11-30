@@ -8,7 +8,8 @@ from trajectory_toolkit.normalizers.FirstPoint import FirstPoint
 from trajectory_toolkit.selectors.Random import Random
 from trajectory_toolkit.selectors.RandomInformationGain import RandomInformationGain
 
-from trajectory_toolkit.distancers.Euclidean_distancer import Euclidean_distancer
+from trajectory_toolkit.distancers.Euclidean import Euclidean_distancer
+from trajectory_toolkit.distancers.InterpolatedRouteDistance import InterpolatedRootDistance
 
 
 class Geolet(TransformerMixin):
@@ -31,15 +32,17 @@ class Geolet(TransformerMixin):
             self.normalizer = FirstPoint()
 
         if selector == 'Random':
-            self.selector = Random(normalizer=self.normalizer, movelets_per_class=top_k, verbose=verbose)
+            self.selector = Random(normalizer=self.normalizer, n_geolet_per_class=top_k, verbose=verbose)
         elif selector == 'MutualInformation':
             self.selector = RandomInformationGain(normalizer=self.normalizer, bestFittingMeasure=bestFittingMeasure,
-                                                  top_k=top_k, movelets_per_class=geolet_per_class,
-                                                  trajectories_for_orderline=trajectory_for_stats,
+                                                  top_k=top_k, n_geolet_per_class=geolet_per_class,
+                                                  estimation_trajectories_per_class=trajectory_for_stats,
                                                   n_neighbors=n_neighbors, n_jobs=n_jobs, random_state=random_state,
                                                   verbose=verbose)
         if distance == 'E':
-            self.distancer = Euclidean_distancer(normalizer=self.normalizer, n_jobs=n_jobs,verbose=verbose)
+            self.distancer = Euclidean_distancer(normalizer=self.normalizer, n_jobs=n_jobs, verbose=verbose)
+        elif distance == 'IRP':
+            self.distancer = InterpolatedRootDistance(normalizer=self.normalizer, n_jobs=n_jobs, verbose=verbose)
 
     def fit(self, X: np.ndarray, y: np.ndarray):
         self.y = y
@@ -54,7 +57,7 @@ class Geolet(TransformerMixin):
 
         partitions = self.partitioner.transform(lat_lon)
 
-        sel_tid, sel_y, sel_time, sel_X, el_partid = self.selector.transform(tid, y, time, lat_lon, partitions)
+        sel_tid, sel_y, sel_time, sel_X = self.selector.transform(tid, y, time, lat_lon, partitions)
 
         self.distancer.transform(tid, time, lat_lon, sel_tid, sel_time, sel_X)
 

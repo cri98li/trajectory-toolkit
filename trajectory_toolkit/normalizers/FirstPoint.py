@@ -37,7 +37,9 @@ class FirstPoint(NormalizerInterface):
 
         return X_res
 
-    def _transformSingleTraj(self, X):  # X è una lista di numeri semplici TODO: CHECK
-        row = X.copy()
+    def _transformSingleTraj(self, X):
+        X = X.copy()
 
-        return list(map(lambda x: x - row[0], row))
+        return X - X[0]
+
+        #return list(map(lambda x: x - row[0], row))
