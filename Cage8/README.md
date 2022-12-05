@@ -27,6 +27,7 @@ but which, simultaneously also allow dimensionality reduction.
 - distance from POI
 
 ## References:
+- A survey and comparison of trajectory classification methods
 - Understanding mobility based on GPS data
 - Revealing the physics of movement: comparing the similarity of movement characteristics of different types of moving objects
 - Predicting Transportation Modes of GPS Trajectories using Feature Engineering and Noise Removal
@@ -36,3 +37,5 @@ but which, simultaneously also allow dimensionality reduction.
 
 ## Note
 Per le distanze vedere Intelligent Trajectory Classification for Improved Movement Prediction
+
+In "Identifying Different Transportation Modes from Trajectory Data Using Tree-Based Ensamble Classifier": ci sono varie misure globali
