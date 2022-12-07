@@ -73,25 +73,26 @@ class TestAlgorithms(unittest.TestCase):
 
         df["c1"] = df.c1 / 100000
         df["c2"] = df.c2 / 100000
+        for _ in range(5):
 
-        tid_train, tid_test, _, _ = train_test_split(df.groupby(by=["tid"]).max().reset_index()["tid"],
-                                                     df.groupby(by=["tid"]).max().reset_index()["class"],
-                                                     test_size=.3,
-                                                     stratify=df.groupby(by=["tid"]).max().reset_index()["class"],
-                                                     random_state=3)
-        start = datetime.now()
-        transform = Geolet(precision=6, geolet_per_class=150, selector='MutualInformation', top_k=10,
-                           trajectory_for_stats=100,
-                           bestFittingMeasure=trajectory_toolkit.distancers.InterpolatedRouteDistance.interpolatedRootDistanceBestFitting,
-                           distance='IRD',
-                           verbose=True, n_jobs=12)
+            tid_train, tid_test, _, _ = train_test_split(df.groupby(by=["tid"]).max().reset_index()["tid"],
+                                                         df.groupby(by=["tid"]).max().reset_index()["class"],
+                                                         test_size=.3,
+                                                         stratify=df.groupby(by=["tid"]).max().reset_index()["class"],
+                                                         random_state=3)
+            start = datetime.now()
+            transform = Geolet(precision=6, geolet_per_class=150, selector='MutualInformation', top_k=10,
+                               trajectory_for_stats=100,
+                               bestFittingMeasure=trajectory_toolkit.distancers.InterpolatedRouteDistance.interpolatedRootDistanceBestFitting,
+                               distancer='IRD',
+                               verbose=True, n_jobs=12)
 
-        X = df.drop(columns="class").values
-        y = df.values[:, 1]
+            X = df.drop(columns="class").values
+            y = df.values[:, 1]
 
-        transform.fit_transform(X, y)
+            transform.fit_transform(X, y)
 
-        print((start - datetime.now()).total_seconds()*1000)
+            print((start - datetime.now()).total_seconds()*1000)
 
 
 

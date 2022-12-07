@@ -56,7 +56,8 @@ def interpolatedRootDistanceBestFitting(tr_time, tr_X, geo_time, geo_X, normaliz
     if len(geo_time) > len(tr_time):
         return interpolatedRootDistanceBestFitting(geo_time, geo_X, tr_time, tr_X, normalizer)
 
-    #tr_X = tr_X.copy()
+    tr_X = np.hstack((tr_X, tr_time.reshape((len(tr_time), 1))))
+    geo_X = np.hstack((geo_X, geo_time.reshape((len(geo_time), 1))))
 
     bestScore = math.inf
     best_i = -1

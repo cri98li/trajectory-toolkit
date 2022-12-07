@@ -1,13 +1,17 @@
 import numpy as np
 from sklearn.base import TransformerMixin
 
+from trajectory_toolkit.partitioners.PartitionerInterface import PartitionerInterface
 from trajectory_toolkit.partitioners.Geohash import Geohash
 
+from trajectory_toolkit.normalizers.NormalizerInterface import NormalizerInterface
 from trajectory_toolkit.normalizers.FirstPoint import FirstPoint
 
+from trajectory_toolkit.selectors.SelectorInterface import SelectorInterface
 from trajectory_toolkit.selectors.Random import Random
 from trajectory_toolkit.selectors.RandomInformationGain import RandomInformationGain
 
+from trajectory_toolkit.distancers.DistancerInterface import DistancerInterface
 from trajectory_toolkit.distancers.Euclidean import Euclidean_distancer
 from trajectory_toolkit.distancers.InterpolatedRouteDistance import InterpolatedRootDistance
 
@@ -17,8 +21,8 @@ class Geolet(TransformerMixin):
                  partitioner='Geohash',
                  normalizer='FirstPoint',
                  selector='Random', geolet_per_class=10, bestFittingMeasure=lambda x: x, top_k=3,
-                                    trajectory_for_stats=100, n_neighbors=3,
-                 distance='E',
+                 trajectory_for_stats=100, n_neighbors=3,
+                 distancer='E',
                  n_jobs=1,
                  random_state=42,
                  verbose=False):
@@ -27,9 +31,19 @@ class Geolet(TransformerMixin):
 
         if partitioner == 'Geohash':
             self.partitioner = Geohash(precision=precision, verbose=verbose)
+        elif isinstance(partitioner, PartitionerInterface):
+            self.partitioner = partitioner
+        else:
+            raise ValueError(
+                f"partitioner={partitioner} unsupported. You can use a custom partitioner by passing its instance")
 
         if normalizer == 'FirstPoint':
             self.normalizer = FirstPoint()
+        elif isinstance(normalizer, NormalizerInterface):
+            self.normalizer = normalizer
+        else:
+            raise ValueError(
+                f"normalizer={normalizer} unsupported. You can use a custom normalizer by passing its instance")
 
         if selector == 'Random':
             self.selector = Random(normalizer=self.normalizer, n_geolet_per_class=top_k, verbose=verbose)
@@ -39,13 +53,31 @@ class Geolet(TransformerMixin):
                                                   estimation_trajectories_per_class=trajectory_for_stats,
                                                   n_neighbors=n_neighbors, n_jobs=n_jobs, random_state=random_state,
                                                   verbose=verbose)
-        if distance == 'E':
+        elif isinstance(selector, SelectorInterface):
+            self.selector = selector
+        else:
+            raise ValueError(
+                f"selector={selector} unsupported. You can use a custom selector by passing its instance")
+
+        if distancer == 'E':
             self.distancer = Euclidean_distancer(normalizer=self.normalizer, n_jobs=n_jobs, verbose=verbose)
-        elif distance == 'IRP':
+        elif distancer == 'IRD':
             self.distancer = InterpolatedRootDistance(normalizer=self.normalizer, n_jobs=n_jobs, verbose=verbose)
+        elif isinstance(distancer, DistancerInterface):
+            self.distancer = distancer
+        else:
+            raise ValueError(
+                f"distancer={distancer} unsupported. You can use a custom distancer by passing its instance")
 
     def fit(self, X: np.ndarray, y: np.ndarray):
-        self.y = y
+        tid = X[:, 0]
+        time = X[:, 1]
+        lat_lon = X[:, 2:]
+
+        partitions = self.partitioner.transform(lat_lon)
+
+        self.sel_tid, sel_y, self.sel_time, self.lat_lon = self.selector.transform(tid, y, time, lat_lon, partitions)
+
         return self
 
     # specific order: tid, class, time, lat, lon
@@ -53,12 +85,10 @@ class Geolet(TransformerMixin):
         tid = X[:, 0]
         time = X[:, 1]
         lat_lon = X[:, 2:]
-        y = self.y
 
-        partitions = self.partitioner.transform(lat_lon)
+        return self.distancer.transform(tid, time, lat_lon, self.sel_tid, self.sel_time, self.lat_lon)
 
-        sel_tid, sel_y, sel_time, sel_X = self.selector.transform(tid, y, time, lat_lon, partitions)
-
-        self.distancer.transform(tid, time, lat_lon, sel_tid, sel_time, sel_X)
-
-        pass
+def prepare_y(classes, tids):
+    selected_tr_classes = [classes[i] for i in range(len(tids) - 1) if tids[i] != tids[i + 1]]
+    selected_tr_classes.append(classes[-1:])
+    return selected_tr_classes

@@ -3,3 +3,5 @@ setuptools
 numpy
 geolib
 pandas
+scikit-learn
+tqdm
