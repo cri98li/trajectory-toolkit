@@ -1,0 +1,1819 @@
+timestamp,location,price,time,credit_card,loyalty_card,id
+1/6/2014,Brew've Been Served,11.34,7:28,True,True,0
+1/6/2014,Hippokampos,13.26,13:23,True,True,0
+1/7/2014,Brew've Been Served,7.09,7:33,True,False,0
+1/7/2014,Kalami Kafenion,18.06,13:33,True,True,0
+1/7/2014,Guy's Gyros,26.82,20:10,True,False,0
+1/8/2014,Brew've Been Served,32.3,8:00,True,False,0
+1/8/2014,Hippokampos,9.03,13:15,True,True,0
+1/9/2014,Brew've Been Served,5.13,7:48,True,True,0
+1/9/2014,Gelatogalore,23.45,13:21,True,True,0
+1/9/2014,General Grocer,285.34,20:19,True,True,0
+1/10/2014,Brew've Been Served,97.25,7:56,True,False,0
+1/10/2014,Hippokampos,79.26,13:20,True,False,0
+1/10/2014,Octavio's Office Supplies,139.72,14:41,True,True,0
+1/10/2014,Guy's Gyros,27.78,19:54,True,True,0
+1/11/2014,Ahaggo Museum,89.32,16:24,True,True,0
+1/11/2014,Hippokampos,63.21,19:29,True,True,0
+1/13/2014,Brew've Been Served,18.71,7:43,True,True,0
+1/13/2014,Ouzeri Elian,95.03,13:37,True,False,0
+1/13/2014,Guy's Gyros,20.47,20:11,True,True,0
+1/14/2014,Brew've Been Served,4.72,7:31,True,True,0
+1/14/2014,Katerina’s Café,29.1,13:34,True,True,0
+1/14/2014,Guy's Gyros,23.59,20:01,True,True,0
+1/15/2014,Brew've Been Served,4.92,7:57,True,True,0
+1/16/2014,Brew've Been Served,4.7,7:53,True,True,0
+1/16/2014,Abila Zacharo,69.27,13:39,True,False,0
+1/16/2014,Guy's Gyros,37.8,19:40,True,True,0
+1/17/2014,Brew've Been Served,19.39,7:59,True,True,0
+1/17/2014,Hippokampos,14.57,13:27,True,True,0
+1/17/2014,Guy's Gyros,35.1,19:53,True,True,0
+1/18/2014,Abila Zacharo,21.29,19:36,True,True,0
+1/19/2014,Katerina’s Café,70.22,13:23,True,True,0
+1/19/2014,Frydos Autosupply n' More,209.76,15:53,True,True,0
+1/8/2014,Brew've Been Served,12.3,,False,True,0
+1/10/2014,Brew've Been Served,17.25,,False,True,0
+1/10/2014,Hippokampos,39.26,,False,True,0
+1/13/2014,Ouzeri Elian,35.03,,False,True,0
+1/15/2014,General Grocer,137.65,,False,True,0
+1/15/2014,Guy's Gyros,19.8,,False,True,0
+1/6/2014,Hallowed Grounds,52.22,7:34,True,False,1
+1/6/2014,Abila Zacharo,78.11,14:05,True,False,1
+1/6/2014,Guy's Gyros,95.29,20:28,True,False,1
+1/7/2014,Hallowed Grounds,18.97,7:48,True,True,1
+1/7/2014,Kalami Kafenion,22.14,13:46,True,True,1
+1/8/2014,Hallowed Grounds,12.19,7:39,True,False,1
+1/8/2014,Katerina’s Café,22.94,14:06,True,False,1
+1/8/2014,General Grocer,265.84,21:00,True,True,1
+1/9/2014,Hallowed Grounds,56.77,7:42,True,False,1
+1/9/2014,Ouzeri Elian,32.89,14:04,True,True,1
+1/10/2014,Hallowed Grounds,10.76,7:50,True,True,1
+1/10/2014,Katerina’s Café,77.62,14:08,True,False,1
+1/10/2014,Guy's Gyros,35.54,20:20,True,False,1
+1/11/2014,Kalami Kafenion,39.36,14:16,True,True,1
+1/11/2014,Kalami Kafenion,46.78,20:30,True,False,1
+1/12/2014,Guy's Gyros,42.32,19:26,True,True,1
+1/13/2014,Hallowed Grounds,19.18,7:54,True,True,1
+1/13/2014,Guy's Gyros,37.5,20:59,True,True,1
+1/14/2014,Hallowed Grounds,13.0,7:45,True,True,1
+1/14/2014,Ouzeri Elian,62.3,13:51,True,False,1
+1/14/2014,Guy's Gyros,94.26,19:59,True,False,1
+1/15/2014,Hallowed Grounds,12.17,7:44,True,True,1
+1/15/2014,Ouzeri Elian,22.86,13:42,True,True,1
+1/16/2014,Kronos Mart,298.83,7:30,True,False,1
+1/16/2014,Hallowed Grounds,18.2,7:44,True,True,1
+1/16/2014,Abila Zacharo,36.02,13:47,True,False,1
+1/16/2014,Guy's Gyros,11.31,20:35,True,True,1
+1/17/2014,Kalami Kafenion,27.73,13:58,True,True,1
+1/17/2014,General Grocer,98.03,20:41,True,False,1
+1/19/2014,Guy's Gyros,36.87,20:14,True,True,1
+1/6/2014,Abila Zacharo,18.11,,False,True,1
+1/6/2014,Guy's Gyros,15.29,,False,True,1
+1/6/2014,Hallowed Grounds,12.22,,False,True,1
+1/9/2014,Hallowed Grounds,16.77,,False,True,1
+1/10/2014,Katerina’s Café,37.62,,False,True,1
+1/13/2014,Guy's Gyros,33.48,,False,True,1
+1/14/2014,Guy's Gyros,34.26,,False,True,1
+1/14/2014,Ouzeri Elian,22.3,,False,True,1
+1/15/2014,Kronos Mart,258.83,,False,True,1
+1/17/2014,General Grocer,78.03,,False,True,1
+1/6/2014,Brew've Been Served,8.33,7:35,True,True,2
+1/6/2014,Ouzeri Elian,20.56,13:37,True,True,2
+1/6/2014,Guy's Gyros,117.82,20:15,True,False,2
+1/7/2014,Brew've Been Served,19.6,7:45,True,False,2
+1/7/2014,Guy's Gyros,11.31,13:33,True,True,2
+1/8/2014,Brew've Been Served,8.27,7:48,True,True,2
+1/8/2014,Kalami Kafenion,14.77,13:52,True,True,2
+1/9/2014,Ouzeri Elian,22.4,13:23,True,True,2
+1/9/2014,Guy's Gyros,29.96,19:52,True,True,2
+1/10/2014,Brew've Been Served,15.85,7:35,True,True,2
+1/10/2014,Guy's Gyros,26.76,13:25,True,True,2
+1/10/2014,Guy's Gyros,23.61,19:45,True,True,2
+1/11/2014,Guy's Gyros,55.36,19:34,True,False,2
+1/13/2014,Brew've Been Served,24.18,7:43,True,False,2
+1/13/2014,Kronos Mart,159.06,8:01,True,False,2
+1/13/2014,Abila Zacharo,79.95,13:20,True,False,2
+1/14/2014,Brew've Been Served,3.66,7:53,True,True,2
+1/14/2014,Abila Zacharo,8.41,13:38,True,True,2
+1/14/2014,Octavio's Office Supplies,131.73,15:49,True,False,2
+1/14/2014,Guy's Gyros,18.11,20:15,True,False,2
+1/15/2014,Brew've Been Served,15.5,7:36,True,True,2
+1/15/2014,Guy's Gyros,36.35,20:08,True,True,2
+1/16/2014,Brew've Been Served,12.83,7:55,True,True,2
+1/16/2014,Guy's Gyros,13.48,13:44,True,True,2
+1/16/2014,Guy's Gyros,30.76,20:17,True,True,2
+1/17/2014,Coffee Cameleon,9.16,7:52,True,True,2
+1/17/2014,Hippokampos,15.77,13:31,True,True,2
+1/17/2014,Guy's Gyros,19.68,19:29,True,True,2
+1/18/2014,Guy's Gyros,78.36,19:39,True,False,2
+1/19/2014,Guy's Gyros,100.36,19:49,True,False,2
+1/6/2014,Guy's Gyros,37.82,,False,True,2
+1/9/2014,Brew've Been Served,15.82,,False,True,2
+1/11/2014,Guy's Gyros,55.69,,False,True,2
+1/12/2014,Kronos Mart,159.06,,False,True,2
+1/13/2014,Abila Zacharo,39.95,,False,True,2
+1/13/2014,Brew've Been Served,4.18,,False,True,2
+1/19/2014,Guy's Gyros,40.36,,False,True,2
+1/6/2014,Hallowed Grounds,16.72,7:36,True,True,3
+1/6/2014,Katerina’s Café,32.64,13:50,True,True,3
+1/6/2014,Katerina’s Café,10.72,21:03,True,False,3
+1/7/2014,Hallowed Grounds,9.92,8:01,True,True,3
+1/7/2014,Guy's Gyros,12.57,14:09,True,True,3
+1/7/2014,Katerina’s Café,17.26,20:33,True,True,3
+1/8/2014,Hallowed Grounds,3.4,7:43,True,True,3
+1/8/2014,Abila Zacharo,16.2,13:53,True,True,3
+1/9/2014,Hallowed Grounds,18.48,7:57,True,True,3
+1/9/2014,Guy's Gyros,15.0,13:44,True,True,3
+1/10/2014,Hallowed Grounds,8.34,7:41,True,True,3
+1/10/2014,Ouzeri Elian,30.93,14:07,True,True,3
+1/11/2014,Gelatogalore,17.31,13:35,True,True,3
+1/11/2014,Shoppers' Delight,157.45,15:15,True,False,3
+1/11/2014,Katerina’s Café,55.67,19:08,True,True,3
+1/13/2014,Bean There Done That,15.24,12:00,True,True,3
+1/13/2014,Hippokampos,25.09,14:04,True,True,3
+1/14/2014,Hallowed Grounds,50.21,7:54,True,False,3
+1/14/2014,Guy's Gyros,38.26,13:49,True,True,3
+1/14/2014,Katerina’s Café,18.35,21:10,True,True,3
+1/15/2014,Hallowed Grounds,5.28,7:36,True,True,3
+1/15/2014,Guy's Gyros,25.58,14:00,True,True,3
+1/15/2014,Katerina’s Café,11.45,20:05,True,True,3
+1/16/2014,Hallowed Grounds,44.98,7:51,True,False,3
+1/16/2014,Hippokampos,29.93,13:48,True,True,3
+1/16/2014,Katerina’s Café,13.91,20:23,True,True,3
+1/17/2014,Hallowed Grounds,15.98,7:39,True,True,3
+1/17/2014,Hippokampos,108.35,13:52,True,False,3
+1/18/2014,Guy's Gyros,47.89,14:05,True,True,3
+1/18/2014,Roberts and Sons,266.69,19:20,True,True,3
+1/19/2014,Katerina’s Café,38.9,20:22,True,True,3
+1/9/2014,Katerina’s Café,26.0,,False,True,3
+1/14/2014,Hallowed Grounds,10.21,,False,True,3
+1/16/2014,Hallowed Grounds,4.98,,False,True,3
+1/17/2014,Hippokampos,28.35,,False,True,3
+1/6/2014,Brew've Been Served,4.24,7:37,True,True,4
+1/6/2014,Guy's Gyros,16.92,13:30,True,True,4
+1/6/2014,Guy's Gyros,39.29,19:18,True,True,4
+1/7/2014,Brew've Been Served,5.08,7:27,True,True,4
+1/7/2014,Guy's Gyros,42.25,20:10,True,False,4
+1/8/2014,Brew've Been Served,3.42,8:01,True,True,4
+1/8/2014,Guy's Gyros,30.12,13:32,True,True,4
+1/8/2014,Guy's Gyros,28.81,20:07,True,True,4
+1/9/2014,Brew've Been Served,5.3,7:48,True,True,4
+1/9/2014,Kalami Kafenion,18.14,13:38,True,True,4
+1/9/2014,Guy's Gyros,35.05,20:39,True,True,4
+1/10/2014,Brew've Been Served,83.44,7:54,True,False,4
+1/10/2014,Guy's Gyros,26.68,13:38,True,True,4
+1/10/2014,Frydos Autosupply n' More,237.08,20:15,True,False,4
+1/11/2014,Guy's Gyros,33.65,20:06,True,True,4
+1/12/2014,Shoppers' Delight,211.03,19:26,True,True,4
+1/13/2014,Brew've Been Served,8.04,7:38,True,True,4
+1/13/2014,Hippokampos,91.97,13:50,True,False,4
+1/13/2014,Guy's Gyros,36.89,20:15,True,True,4
+1/14/2014,Brew've Been Served,8.24,7:53,True,True,4
+1/14/2014,Gelatogalore,27.26,13:32,True,True,4
+1/14/2014,Guy's Gyros,12.96,20:19,True,True,4
+1/15/2014,Brew've Been Served,3.71,7:34,True,True,4
+1/15/2014,Abila Zacharo,20.44,13:47,True,False,4
+1/16/2014,Brew've Been Served,7.31,7:50,True,True,4
+1/16/2014,Kalami Kafenion,8.86,13:49,True,True,4
+1/16/2014,Guy's Gyros,25.57,19:04,True,True,4
+1/17/2014,Brew've Been Served,52.56,7:29,True,False,4
+1/17/2014,Shoppers' Delight,155.01,20:05,True,True,4
+1/18/2014,Guy's Gyros,55.21,13:27,True,False,4
+1/18/2014,Ahaggo Museum,120.2,14:55,True,True,4
+1/19/2014,Ouzeri Elian,45.32,14:08,True,True,4
+1/19/2014,Guy's Gyros,65.21,19:45,True,True,4
+1/7/2014,Guy's Gyros,22.25,,False,True,4
+1/7/2014,Kalami Kafenion,25.9,,False,True,4
+1/10/2014,Brew've Been Served,3.44,,False,True,4
+1/10/2014,Frydos Autosupply n' More,217.08,,False,True,4
+1/13/2014,Hippokampos,31.97,,False,True,4
+1/17/2014,Brew've Been Served,12.56,,False,True,4
+1/18/2014,Guy's Gyros,31.48,,False,True,4
+1/6/2014,Brew've Been Served,4.17,7:38,True,True,5
+1/6/2014,Ouzeri Elian,20.74,13:48,True,True,5
+1/6/2014,Frydos Autosupply n' More,175.87,20:15,True,True,5
+1/7/2014,Brew've Been Served,12.74,7:31,True,True,5
+1/7/2014,Ouzeri Elian,97.71,13:42,True,False,5
+1/7/2014,Guy's Gyros,23.12,20:34,True,True,5
+1/8/2014,Brew've Been Served,74.88,7:57,True,False,5
+1/8/2014,Ouzeri Elian,104.92,13:47,True,False,5
+1/8/2014,Guy's Gyros,33.02,20:08,True,False,5
+1/9/2014,Brew've Been Served,5.43,7:43,True,False,5
+1/9/2014,Hippokampos,39.22,13:41,True,False,5
+1/9/2014,Guy's Gyros,8.23,20:38,True,True,5
+1/10/2014,Brew've Been Served,85.91,7:55,True,False,5
+1/10/2014,Ouzeri Elian,24.74,13:57,True,True,5
+1/10/2014,Guy's Gyros,25.81,21:13,True,True,5
+1/11/2014,Guy's Gyros,36.2,19:57,True,True,5
+1/12/2014,Frydos Autosupply n' More,88.93,19:52,True,True,5
+1/13/2014,Brew've Been Served,16.39,7:36,True,False,5
+1/13/2014,Kalami Kafenion,20.33,13:55,True,True,5
+1/13/2014,Guy's Gyros,19.77,21:08,True,True,5
+1/14/2014,Brew've Been Served,14.67,7:27,True,True,5
+1/14/2014,Gelatogalore,35.97,13:57,True,True,5
+1/14/2014,Guy's Gyros,35.12,20:17,True,True,5
+1/15/2014,Brew've Been Served,8.42,8:00,True,True,5
+1/15/2014,Ouzeri Elian,25.7,13:40,True,True,5
+1/15/2014,Guy's Gyros,44.91,20:06,True,False,5
+1/16/2014,Brew've Been Served,25.05,7:33,True,False,5
+1/16/2014,Katerina’s Café,38.32,13:43,True,True,5
+1/16/2014,Octavio's Office Supplies,131.01,15:58,True,True,5
+1/17/2014,Brew've Been Served,11.69,7:36,True,True,5
+1/17/2014,Abila Zacharo,51.95,14:06,True,False,5
+1/17/2014,Frydos Autosupply n' More,67.29,21:15,True,True,5
+1/18/2014,Kalami Kafenion,30.12,13:19,True,True,5
+1/18/2014,Frydos Autosupply n' More,103.41,15:31,True,True,5
+1/18/2014,Guy's Gyros,28.07,19:21,True,True,5
+1/7/2014,Ouzeri Elian,17.71,,False,True,5
+1/8/2014,Brew've Been Served,14.88,,False,True,5
+1/8/2014,Ouzeri Elian,24.92,,False,True,5
+1/9/2014,Hippokampos,19.22,,False,True,5
+1/10/2014,Brew've Been Served,5.91,,False,True,5
+1/15/2014,Guy's Gyros,24.91,,False,True,5
+1/16/2014,Brew've Been Served,5.05,,False,True,5
+1/17/2014,Abila Zacharo,11.95,,False,True,5
+1/6/2014,Coffee Cameleon,28.73,7:42,True,False,24
+1/6/2014,Gelatogalore,12.74,13:19,True,True,24
+1/6/2014,Katerina’s Café,23.63,20:07,True,True,24
+1/7/2014,Coffee Cameleon,27.66,7:49,True,False,24
+1/7/2014,Gelatogalore,34.04,13:33,True,True,24
+1/7/2014,Katerina’s Café,19.49,20:09,True,True,24
+1/8/2014,Coffee Cameleon,6.59,7:51,True,True,24
+1/8/2014,Hippokampos,16.59,13:26,True,True,24
+1/9/2014,Coffee Cameleon,12.47,7:35,True,False,24
+1/9/2014,Katerina’s Café,17.02,13:03,True,True,24
+1/9/2014,Guy's Gyros,23.34,20:29,True,False,24
+1/10/2014,Coffee Cameleon,8.51,7:40,True,True,24
+1/10/2014,Guy's Gyros,15.93,13:27,True,True,24
+1/10/2014,Octavio's Office Supplies,64.51,16:07,True,True,24
+1/11/2014,Abila Zacharo,32.02,13:51,True,False,24
+1/12/2014,Katerina’s Café,11.81,19:21,True,True,24
+1/13/2014,Coffee Cameleon,4.88,8:02,True,True,24
+1/13/2014,Hippokampos,35.73,13:24,True,True,24
+1/13/2014,Katerina’s Café,22.24,20:47,True,False,24
+1/14/2014,Coffee Cameleon,15.63,7:53,True,True,24
+1/14/2014,Hippokampos,36.01,13:17,True,True,24
+1/15/2014,Coffee Cameleon,5.49,7:56,True,True,24
+1/15/2014,Ouzeri Elian,8.93,13:10,True,True,24
+1/15/2014,Katerina’s Café,13.77,21:05,True,True,24
+1/16/2014,Hippokampos,16.53,13:30,True,True,24
+1/17/2014,Coffee Cameleon,6.81,7:51,True,True,24
+1/17/2014,Kalami Kafenion,140.78,13:16,True,True,24
+1/17/2014,Katerina’s Café,19.09,20:20,True,True,24
+1/18/2014,Abila Zacharo,18.45,13:25,True,True,24
+1/18/2014,Roberts and Sons,62.47,15:41,True,True,24
+1/6/2014,Coffee Cameleon,8.73,,False,True,24
+1/7/2014,Coffee Cameleon,7.66,,False,True,24
+1/8/2014,Katerina’s Café,19.12,,False,True,24
+1/11/2014,Katerina’s Café,29.17,,False,True,24
+1/16/2014,Coffee Cameleon,5.2,,False,True,24
+1/16/2014,Katerina’s Café,36.32,,False,True,24
+1/6/2014,Brew've Been Served,9.6,7:43,True,True,6
+1/6/2014,Hippokampos,30.88,14:04,True,True,6
+1/6/2014,Katerina’s Café,26.51,21:12,True,True,6
+1/7/2014,Brew've Been Served,11.91,8:00,True,True,6
+1/7/2014,Ouzeri Elian,28.37,13:32,True,True,6
+1/8/2014,Brew've Been Served,3.09,7:42,True,True,6
+1/8/2014,Gelatogalore,39.94,14:17,True,True,6
+1/8/2014,Katerina’s Café,28.86,21:02,True,False,6
+1/9/2014,Brew've Been Served,4.4,7:46,True,False,6
+1/9/2014,Kalami Kafenion,19.84,13:56,True,True,6
+1/9/2014,Katerina’s Café,26.6,20:06,True,True,6
+1/10/2014,Brew've Been Served,44.88,7:47,True,False,6
+1/10/2014,Hippokampos,10.16,14:20,True,False,6
+1/11/2014,Katerina’s Café,25.76,20:00,True,True,6
+1/12/2014,Katerina’s Café,40.25,20:35,True,True,6
+1/13/2014,Brew've Been Served,9.53,7:56,True,True,6
+1/13/2014,Hippokampos,26.96,14:21,True,True,6
+1/14/2014,Brew've Been Served,14.04,7:45,True,True,6
+1/14/2014,Kalami Kafenion,27.65,13:50,True,True,6
+1/14/2014,Frydos Autosupply n' More,49.21,21:28,True,True,6
+1/15/2014,Brew've Been Served,3.14,7:58,True,True,6
+1/15/2014,Abila Zacharo,46.82,14:04,True,False,6
+1/15/2014,Frydos Autosupply n' More,276.88,20:57,True,True,6
+1/16/2014,Brew've Been Served,83.84,7:54,True,False,6
+1/16/2014,Abila Zacharo,24.38,13:48,True,True,6
+1/16/2014,Frydos Autosupply n' More,130.01,20:54,True,True,6
+1/17/2014,Brew've Been Served,8.07,7:50,True,True,6
+1/17/2014,Katerina’s Café,70.72,14:15,True,False,6
+1/17/2014,Frydos Autosupply n' More,124.52,19:57,True,True,6
+1/18/2014,Katerina’s Café,16.48,19:47,True,False,6
+1/10/2014,Brew've Been Served,4.88,,False,True,6
+1/15/2014,Abila Zacharo,26.82,,False,True,6
+1/16/2014,Brew've Been Served,3.84,,False,True,6
+1/17/2014,Katerina’s Café,30.72,,False,True,6
+1/6/2014,Brew've Been Served,16.9,7:43,True,True,25
+1/7/2014,Brew've Been Served,98.53,7:56,True,False,25
+1/7/2014,Abila Zacharo,17.81,13:41,True,True,25
+1/7/2014,Guy's Gyros,76.71,20:11,True,False,25
+1/8/2014,Brew've Been Served,19.17,7:48,True,True,25
+1/8/2014,Chostus Hotel,111.89,13:19,True,True,25
+1/8/2014,Guy's Gyros,18.24,20:17,True,True,25
+1/9/2014,Brew've Been Served,70.71,7:36,True,False,25
+1/9/2014,Hippokampos,27.93,13:36,True,True,25
+1/10/2014,Brew've Been Served,89.93,7:49,True,False,25
+1/10/2014,Chostus Hotel,133.25,13:08,True,False,25
+1/11/2014,Ahaggo Museum,52.14,17:16,True,False,25
+1/11/2014,Hippokampos,32.63,19:27,True,True,25
+1/12/2014,Abila Zacharo,11.2,13:45,True,True,25
+1/13/2014,Brew've Been Served,8.0,7:40,True,True,25
+1/13/2014,Abila Zacharo,8.72,13:27,True,True,25
+1/13/2014,Guy's Gyros,15.55,20:44,True,False,25
+1/14/2014,Brew've Been Served,5.87,7:40,True,True,25
+1/14/2014,Chostus Hotel,113.08,13:21,True,True,25
+1/15/2014,Brew've Been Served,19.87,7:40,True,True,25
+1/15/2014,Hippokampos,118.89,13:12,True,False,25
+1/15/2014,Frydos Autosupply n' More,235.27,20:04,True,True,25
+1/16/2014,Brew've Been Served,4.33,7:56,True,False,25
+1/16/2014,Katerina’s Café,11.08,13:17,True,True,25
+1/16/2014,Guy's Gyros,111.31,20:14,True,False,25
+1/17/2014,Chostus Hotel,114.22,13:49,True,True,25
+1/17/2014,Guy's Gyros,29.71,20:59,True,True,25
+1/19/2014,Guy's Gyros,37.48,20:16,True,True,25
+1/6/2014,Ouzeri Elian,34.71,,False,True,25
+1/7/2014,Brew've Been Served,18.53,,False,True,25
+1/9/2014,Brew've Been Served,10.71,,False,True,25
+1/10/2014,Chostus Hotel,113.25,,False,True,25
+1/11/2014,Ahaggo Museum,32.14,,False,True,25
+1/15/2014,Hippokampos,38.89,,False,True,25
+1/16/2014,Guy's Gyros,31.31,,False,True,25
+1/17/2014,Brew've Been Served,12.3,,False,True,25
+1/6/2014,Hallowed Grounds,16.53,7:47,True,True,7
+1/6/2014,Kalami Kafenion,27.4,14:15,True,True,7
+1/6/2014,Katerina’s Café,26.46,19:08,True,True,7
+1/7/2014,Hallowed Grounds,8.91,7:37,True,True,7
+1/7/2014,Hippokampos,37.57,14:11,True,True,7
+1/8/2014,Hallowed Grounds,5.85,7:40,True,True,7
+1/8/2014,Kalami Kafenion,31.43,14:19,True,True,7
+1/9/2014,Hallowed Grounds,75.24,7:46,True,False,7
+1/9/2014,Kalami Kafenion,10.94,14:04,True,True,7
+1/9/2014,Katerina’s Café,35.92,19:25,True,True,7
+1/10/2014,Hallowed Grounds,16.75,7:34,True,True,7
+1/10/2014,Guy's Gyros,16.34,13:57,True,True,7
+1/10/2014,Katerina’s Café,19.57,19:50,True,False,7
+1/11/2014,Ouzeri Elian,19.11,13:40,True,False,7
+1/11/2014,General Grocer,78.02,15:31,True,True,7
+1/11/2014,Frydos Autosupply n' More,236.25,20:22,True,True,7
+1/12/2014,Guy's Gyros,30.47,14:16,True,True,7
+1/12/2014,Katerina’s Café,39.3,20:04,True,True,7
+1/13/2014,Guy's Gyros,116.87,14:33,True,False,7
+1/13/2014,Frydos Autosupply n' More,188.57,19:41,True,True,7
+1/14/2014,Hallowed Grounds,16.67,7:44,True,True,7
+1/14/2014,Gelatogalore,102.03,14:03,True,False,7
+1/14/2014,Katerina’s Café,27.67,20:15,True,False,7
+1/15/2014,Hallowed Grounds,5.95,7:39,True,False,7
+1/15/2014,Ouzeri Elian,26.61,13:51,True,True,7
+1/15/2014,Katerina’s Café,25.08,19:59,True,False,7
+1/16/2014,Hallowed Grounds,17.92,7:45,True,True,7
+1/16/2014,Katerina’s Café,18.79,20:09,True,True,7
+1/17/2014,Hallowed Grounds,10.52,7:41,True,False,7
+1/17/2014,Ouzeri Elian,26.1,14:32,True,True,7
+1/17/2014,Katerina’s Café,34.93,19:57,True,False,7
+1/18/2014,Katerina’s Café,21.63,19:17,True,False,7
+1/9/2014,Hallowed Grounds,15.24,,False,True,7
+1/13/2014,Guy's Gyros,36.87,,False,True,7
+1/14/2014,Gelatogalore,22.03,,False,True,7
+1/16/2014,Guy's Gyros,36.48,,False,True,7
+1/17/2014,Katerina’s Café,14.93,,False,True,7
+1/6/2014,Hallowed Grounds,10.66,7:48,True,True,26
+1/6/2014,Gelatogalore,36.33,13:52,True,True,26
+1/6/2014,Katerina’s Café,26.1,20:59,True,True,26
+1/7/2014,Hallowed Grounds,9.61,7:50,True,True,26
+1/7/2014,Hippokampos,76.11,14:00,True,False,26
+1/7/2014,Katerina’s Café,32.83,20:47,True,True,26
+1/8/2014,Hallowed Grounds,3.11,7:47,True,True,26
+1/8/2014,Kalami Kafenion,23.82,13:45,True,True,26
+1/9/2014,Hallowed Grounds,65.68,8:07,True,False,26
+1/9/2014,Katerina’s Café,19.02,20:08,True,True,26
+1/10/2014,Hallowed Grounds,11.38,7:45,True,False,26
+1/10/2014,Abila Zacharo,16.12,14:01,True,True,26
+1/12/2014,Kalami Kafenion,14.59,13:55,True,True,26
+1/12/2014,Katerina’s Café,17.36,19:47,True,False,26
+1/13/2014,Hallowed Grounds,13.68,7:43,True,True,26
+1/13/2014,Katerina’s Café,24.26,13:48,True,True,26
+1/14/2014,Hallowed Grounds,39.52,8:12,True,False,26
+1/14/2014,Kalami Kafenion,23.1,13:42,True,True,26
+1/14/2014,Katerina’s Café,11.89,20:34,True,True,26
+1/15/2014,Hallowed Grounds,14.33,7:59,True,True,26
+1/15/2014,Abila Zacharo,24.53,14:02,True,True,26
+1/15/2014,Katerina’s Café,39.23,19:50,True,True,26
+1/16/2014,Hallowed Grounds,17.74,7:44,True,True,26
+1/16/2014,Kalami Kafenion,11.83,13:48,True,True,26
+1/16/2014,Katerina’s Café,34.58,20:51,True,True,26
+1/17/2014,Hallowed Grounds,38.22,8:03,True,False,26
+1/17/2014,Gelatogalore,21.62,13:57,True,True,26
+1/17/2014,Katerina’s Café,22.18,19:24,True,True,26
+1/19/2014,Katerina’s Café,54.2,14:20,True,False,26
+1/7/2014,Hippokampos,16.11,,False,True,26
+1/11/2014,Katerina’s Café,27.46,,False,True,26
+1/17/2014,Hallowed Grounds,18.22,,False,True,26
+1/6/2014,Coffee Cameleon,8.39,7:49,True,True,27
+1/6/2014,Ouzeri Elian,30.87,13:48,True,True,27
+1/6/2014,Katerina’s Café,15.52,20:33,True,True,27
+1/7/2014,Coffee Cameleon,9.1,7:46,True,True,27
+1/7/2014,Gelatogalore,88.97,13:54,True,False,27
+1/7/2014,Katerina’s Café,19.53,20:32,True,True,27
+1/8/2014,Coffee Cameleon,12.26,7:52,True,True,27
+1/8/2014,Kalami Kafenion,24.08,13:29,True,True,27
+1/8/2014,Katerina’s Café,92.83,20:42,True,False,27
+1/9/2014,Coffee Cameleon,19.99,7:37,True,True,27
+1/9/2014,Guy's Gyros,17.44,14:13,True,True,27
+1/9/2014,Katerina’s Café,26.6,19:30,True,True,27
+1/10/2014,Coffee Cameleon,11.54,7:47,True,True,27
+1/10/2014,Katerina’s Café,21.89,19:56,True,True,27
+1/11/2014,Frydos Autosupply n' More,114.98,20:15,True,False,27
+1/12/2014,Shoppers' Delight,51.5,16:08,True,True,27
+1/12/2014,Katerina’s Café,67.14,20:11,True,True,27
+1/13/2014,Coffee Cameleon,19.93,7:40,True,True,27
+1/13/2014,Katerina’s Café,29.55,13:52,True,True,27
+1/13/2014,Katerina’s Café,89.83,19:50,True,False,27
+1/14/2014,Coffee Cameleon,9.8,7:37,True,True,27
+1/14/2014,Katerina’s Café,75.46,13:41,True,False,27
+1/14/2014,Katerina’s Café,36.95,20:17,True,True,27
+1/15/2014,Coffee Cameleon,14.47,7:51,True,True,27
+1/15/2014,Abila Zacharo,33.8,13:58,True,True,27
+1/15/2014,Katerina’s Café,27.48,21:21,True,True,27
+1/16/2014,Coffee Cameleon,67.19,7:38,True,False,27
+1/16/2014,Abila Zacharo,31.31,13:27,True,True,27
+1/16/2014,Katerina’s Café,34.34,19:47,True,False,27
+1/17/2014,Coffee Cameleon,10.27,7:38,True,True,27
+1/17/2014,Katerina’s Café,21.01,13:42,True,True,27
+1/18/2014,Ouzeri Elian,25.75,13:34,True,False,27
+1/18/2014,General Grocer,177.6,15:31,True,True,27
+1/18/2014,Katerina’s Café,76.1,19:53,True,True,27
+1/19/2014,Katerina’s Café,72.25,18:54,True,False,27
+1/7/2014,Gelatogalore,8.97,,False,True,27
+1/8/2014,Katerina’s Café,32.83,,False,True,27
+1/10/2014,Gelatogalore,39.4,,False,True,27
+1/11/2014,Frydos Autosupply n' More,54.98,,False,True,27
+1/12/2014,Katerina’s Café,34.1,,False,True,27
+1/13/2014,Katerina’s Café,29.83,,False,True,27
+1/14/2014,Katerina’s Café,15.46,,False,True,27
+1/16/2014,Coffee Cameleon,7.19,,False,True,27
+1/16/2014,Katerina’s Café,14.34,,False,True,27
+1/18/2014,Ouzeri Elian,53.36,,False,True,27
+1/19/2014,Katerina’s Café,12.25,,False,True,27
+1/6/2014,Brew've Been Served,32.83,7:52,True,False,28
+1/6/2014,Abila Zacharo,23.15,13:54,True,True,28
+1/6/2014,Katerina’s Café,17.92,20:29,True,True,28
+1/7/2014,Brew've Been Served,14.49,8:02,True,True,28
+1/7/2014,Gelatogalore,17.21,13:39,True,True,28
+1/7/2014,Katerina’s Café,33.29,21:01,True,True,28
+1/8/2014,Brew've Been Served,33.68,7:50,True,False,28
+1/8/2014,Gelatogalore,20.72,13:28,True,True,28
+1/9/2014,Hallowed Grounds,50.25,7:57,True,False,28
+1/9/2014,Gelatogalore,11.94,13:40,True,True,28
+1/9/2014,Katerina’s Café,91.14,20:20,True,False,28
+1/10/2014,Brew've Been Served,13.32,7:48,True,True,28
+1/10/2014,Ouzeri Elian,20.46,13:44,True,True,28
+1/10/2014,Katerina’s Café,15.76,20:08,True,True,28
+1/11/2014,Katerina’s Café,9.78,20:13,True,True,28
+1/12/2014,Katerina’s Café,15.37,20:12,True,True,28
+1/13/2014,Hallowed Grounds,5.85,7:44,True,True,28
+1/13/2014,Katerina’s Café,17.21,13:36,True,False,28
+1/13/2014,Katerina’s Café,33.11,21:16,True,True,28
+1/14/2014,Brew've Been Served,16.53,7:45,True,True,28
+1/14/2014,Abila Zacharo,15.26,13:35,True,True,28
+1/14/2014,Roberts and Sons,223.81,21:14,True,False,28
+1/15/2014,Brew've Been Served,11.47,7:45,True,True,28
+1/15/2014,Hippokampos,8.75,13:39,True,False,28
+1/16/2014,Hallowed Grounds,72.61,8:03,True,False,28
+1/16/2014,Gelatogalore,22.19,13:37,True,True,28
+1/16/2014,Katerina’s Café,30.84,20:28,True,False,28
+1/17/2014,Brew've Been Served,16.62,8:04,True,True,28
+1/17/2014,Kalami Kafenion,27.7,13:39,True,False,28
+1/17/2014,Katerina’s Café,27.49,21:06,True,True,28
+1/18/2014,Katerina’s Café,17.37,20:01,True,False,28
+1/19/2014,Frydos Autosupply n' More,98.04,19:45,True,True,28
+1/6/2014,Brew've Been Served,12.83,,False,True,28
+1/8/2014,Brew've Been Served,13.68,,False,True,28
+1/9/2014,Hallowed Grounds,10.25,,False,True,28
+1/14/2014,Roberts and Sons,203.81,,False,True,28
+1/16/2014,Hallowed Grounds,12.61,,False,True,28
+1/16/2014,Katerina’s Café,10.84,,False,True,28
+1/6/2014,Hallowed Grounds,16.88,7:54,True,False,29
+1/6/2014,Gelatogalore,22.64,13:41,True,True,29
+1/7/2014,Hallowed Grounds,14.05,7:35,True,True,29
+1/7/2014,Katerina’s Café,22.27,13:33,True,True,29
+1/7/2014,Katerina’s Café,94.75,20:13,True,False,29
+1/8/2014,Hallowed Grounds,79.92,7:55,True,False,29
+1/8/2014,Gelatogalore,35.29,13:42,True,True,29
+1/8/2014,Katerina’s Café,36.6,20:31,True,True,29
+1/9/2014,Hallowed Grounds,19.22,7:51,True,False,29
+1/9/2014,Guy's Gyros,13.59,13:28,True,True,29
+1/9/2014,Guy's Gyros,8.23,20:23,True,True,29
+1/10/2014,Hallowed Grounds,10.34,7:49,True,True,29
+1/10/2014,Frydos Autosupply n' More,98.39,18:57,True,False,29
+1/11/2014,Katerina’s Café,12.55,19:50,True,True,29
+1/12/2014,Hippokampos,8.54,13:54,True,True,29
+1/12/2014,Katerina’s Café,12.64,19:18,True,True,29
+1/13/2014,Hallowed Grounds,9.16,7:32,True,True,29
+1/13/2014,Katerina’s Café,55.82,20:51,True,False,29
+1/14/2014,Hallowed Grounds,10.75,7:35,True,True,29
+1/14/2014,Hippokampos,98.81,13:42,True,False,29
+1/14/2014,Katerina’s Café,91.8,20:09,True,False,29
+1/15/2014,Hallowed Grounds,11.98,7:33,True,False,29
+1/15/2014,Abila Zacharo,31.0,13:22,True,True,29
+1/16/2014,Hallowed Grounds,13.84,7:44,True,True,29
+1/16/2014,Guy's Gyros,31.48,13:23,True,True,29
+1/16/2014,Katerina’s Café,10.93,19:39,True,True,29
+1/17/2014,Hallowed Grounds,14.58,7:33,True,True,29
+1/17/2014,Katerina’s Café,72.13,20:24,True,False,29
+1/18/2014,Katerina’s Café,8.14,19:30,True,True,29
+1/19/2014,Katerina’s Café,34.03,19:53,True,True,29
+1/7/2014,Katerina’s Café,14.75,,False,True,29
+1/8/2014,Hallowed Grounds,19.92,,False,True,29
+1/10/2014,Ouzeri Elian,25.98,,False,True,29
+1/13/2014,Katerina’s Café,37.88,,False,True,29
+1/13/2014,Katerina’s Café,15.82,,False,True,29
+1/14/2014,Hippokampos,18.81,,False,True,29
+1/14/2014,Katerina’s Café,31.8,,False,True,29
+1/17/2014,Katerina’s Café,32.13,,False,True,29
+1/6/2014,Coffee Cameleon,11.86,7:54,True,True,30
+1/6/2014,Katerina’s Café,36.95,13:53,True,False,30
+1/6/2014,Frydos Autosupply n' More,197.32,21:23,True,True,30
+1/7/2014,Coffee Cameleon,11.55,8:00,True,True,30
+1/7/2014,Ouzeri Elian,29.1,13:29,True,True,30
+1/7/2014,Katerina’s Café,10.07,20:11,True,True,30
+1/8/2014,Coffee Cameleon,15.71,7:59,True,True,30
+1/8/2014,Katerina’s Café,26.45,13:41,True,True,30
+1/8/2014,Katerina’s Café,33.31,20:27,True,True,30
+1/9/2014,Coffee Cameleon,16.13,8:03,True,True,30
+1/9/2014,Hippokampos,16.65,13:53,True,False,30
+1/10/2014,Coffee Cameleon,13.25,8:11,True,False,30
+1/10/2014,Katerina’s Café,24.33,13:47,True,True,30
+1/11/2014,Katerina’s Café,26.02,14:17,True,True,30
+1/11/2014,Katerina’s Café,33.18,19:31,True,True,30
+1/12/2014,Hippokampos,12.55,13:25,True,True,30
+1/12/2014,Albert's Fine Clothing,195.81,15:49,True,True,30
+1/12/2014,Katerina’s Café,39.55,20:13,True,False,30
+1/13/2014,Coffee Cameleon,17.76,8:12,True,True,30
+1/13/2014,Guy's Gyros,37.37,13:39,True,True,30
+1/13/2014,Katerina’s Café,35.7,20:24,True,True,30
+1/14/2014,Coffee Cameleon,7.84,7:56,True,True,30
+1/14/2014,Gelatogalore,32.82,13:32,True,False,30
+1/15/2014,Coffee Cameleon,19.93,7:45,True,True,30
+1/15/2014,Guy's Gyros,15.89,13:44,True,True,30
+1/15/2014,Katerina’s Café,29.84,20:00,True,False,30
+1/16/2014,Ouzeri Elian,18.27,13:45,True,False,30
+1/16/2014,Katerina’s Café,19.44,20:36,True,True,30
+1/17/2014,Abila Zacharo,14.51,13:41,True,True,30
+1/17/2014,Katerina’s Café,38.21,20:58,True,True,30
+1/19/2014,Hippokampos,64.37,13:33,True,False,30
+1/19/2014,Albert's Fine Clothing,274.66,15:39,True,True,30
+1/19/2014,Shoppers' Delight,30.39,19:56,True,True,30
+1/17/2014,Coffee Cameleon,14.57,,False,True,30
+1/6/2014,Hallowed Grounds,32.93,7:54,True,False,8
+1/6/2014,Hippokampos,36.54,13:35,True,True,8
+1/7/2014,Hallowed Grounds,68.42,8:01,True,False,8
+1/7/2014,Gelatogalore,36.5,13:49,True,True,8
+1/7/2014,Ouzeri Elian,20.53,20:49,True,True,8
+1/8/2014,Hallowed Grounds,3.9,7:50,True,True,8
+1/8/2014,Abila Zacharo,28.25,13:46,True,True,8
+1/9/2014,Hallowed Grounds,15.33,8:15,True,True,8
+1/9/2014,Gelatogalore,24.68,13:45,True,True,8
+1/9/2014,Shoppers' Delight,258.43,21:13,True,True,8
+1/10/2014,Hallowed Grounds,17.63,7:46,True,True,8
+1/10/2014,Abila Zacharo,31.34,13:46,True,True,8
+1/11/2014,Ouzeri Elian,16.69,20:04,True,False,8
+1/13/2014,Hallowed Grounds,55.96,8:06,True,False,8
+1/13/2014,Gelatogalore,117.17,14:01,True,False,8
+1/13/2014,Ouzeri Elian,21.83,20:43,True,True,8
+1/14/2014,Hallowed Grounds,10.65,8:12,True,True,8
+1/14/2014,Ouzeri Elian,33.67,13:53,True,True,8
+1/14/2014,Ouzeri Elian,80.95,20:46,True,False,8
+1/15/2014,Hallowed Grounds,14.39,8:13,True,True,8
+1/15/2014,Gelatogalore,42.36,13:59,True,False,8
+1/15/2014,Ouzeri Elian,8.57,21:05,True,True,8
+1/16/2014,Hallowed Grounds,4.6,8:09,True,True,8
+1/16/2014,Ouzeri Elian,22.65,20:25,True,True,8
+1/17/2014,Hallowed Grounds,6.39,8:12,True,False,8
+1/17/2014,Gelatogalore,18.1,13:47,True,True,8
+1/17/2014,Ouzeri Elian,26.4,20:35,True,True,8
+1/18/2014,Gelatogalore,84.38,13:58,True,False,8
+1/18/2014,Ouzeri Elian,14.9,19:46,True,True,8
+1/6/2014,Hallowed Grounds,12.93,,False,True,8
+1/7/2014,Hallowed Grounds,8.42,,False,True,8
+1/13/2014,Hallowed Grounds,15.96,,False,True,8
+1/13/2014,Gelatogalore,37.17,,False,True,8
+1/14/2014,Ouzeri Elian,20.95,,False,True,8
+1/15/2014,Gelatogalore,22.36,,False,True,8
+1/16/2014,Ouzeri Elian,31.21,,False,True,8
+1/18/2014,Gelatogalore,24.38,,False,True,8
+1/6/2014,Hallowed Grounds,8.05,7:55,True,True,31
+1/6/2014,Hippokampos,28.23,13:21,True,False,31
+1/6/2014,Albert's Fine Clothing,276.9,20:26,True,True,31
+1/7/2014,Hallowed Grounds,84.44,7:46,True,False,31
+1/7/2014,Gelatogalore,21.52,13:37,True,True,31
+1/8/2014,Hallowed Grounds,12.86,7:56,True,False,31
+1/8/2014,Hippokampos,39.8,13:43,True,True,31
+1/8/2014,Ouzeri Elian,30.81,21:16,True,False,31
+1/9/2014,Hallowed Grounds,34.45,7:50,True,False,31
+1/9/2014,Abila Zacharo,89.41,13:41,True,False,31
+1/10/2014,Ouzeri Elian,30.71,13:16,True,False,31
+1/11/2014,Hippokampos,75.62,13:37,True,False,31
+1/11/2014,Shoppers' Delight,149.2,19:44,True,False,31
+1/12/2014,Hippokampos,71.99,14:06,True,False,31
+1/13/2014,Daily Dealz,2.01,6:04,True,False,31
+1/13/2014,U-Pump,55.25,13:18,True,False,31
+1/13/2014,Hippokampos,30.51,13:28,True,True,31
+1/13/2014,Frydos Autosupply n' More,10000.0,19:20,True,False,31
+1/13/2014,Ouzeri Elian,28.75,19:30,True,True,31
+1/16/2014,Hallowed Grounds,12.19,8:05,True,True,31
+1/16/2014,Guy's Gyros,10.27,13:28,True,True,31
+1/16/2014,Ouzeri Elian,9.91,20:28,True,True,31
+1/17/2014,Hallowed Grounds,9.4,8:04,True,True,31
+1/17/2014,Ouzeri Elian,35.81,20:28,True,True,31
+1/18/2014,Abila Zacharo,16.59,13:32,True,True,31
+1/18/2014,Ouzeri Elian,61.56,19:26,True,False,31
+1/19/2014,Kronos Mart,194.51,3:45,True,False,31
+1/19/2014,Ouzeri Elian,32.77,19:49,True,False,31
+1/7/2014,Hallowed Grounds,4.44,,False,True,31
+1/7/2014,Ouzeri Elian,25.27,,False,True,31
+1/8/2014,Ouzeri Elian,10.81,,False,True,31
+1/9/2014,Abila Zacharo,29.41,,False,True,31
+1/9/2014,Hallowed Grounds,14.45,,False,True,31
+1/10/2014,Hallowed Grounds,6.87,,False,True,31
+1/12/2014,Hippokampos,31.99,,False,True,31
+1/13/2014,Hallowed Grounds,14.11,,False,True,31
+1/14/2014,Kalami Kafenion,16.84,,False,True,31
+1/14/2014,Ouzeri Elian,15.94,,False,True,31
+1/15/2014,Hallowed Grounds,15.86,,False,True,31
+1/15/2014,Ouzeri Elian,24.81,,False,True,31
+1/15/2014,Ouzeri Elian,32.95,,False,True,31
+1/18/2014,Kronos Mart,194.51,,False,True,31
+1/18/2014,Ouzeri Elian,21.56,,False,True,31
+1/6/2014,Brew've Been Served,3.67,7:55,True,True,32
+1/6/2014,Kalami Kafenion,70.1,13:19,True,False,32
+1/6/2014,U-Pump,59.51,17:28,True,True,32
+1/6/2014,Guy's Gyros,22.57,20:13,True,True,32
+1/7/2014,Brew've Been Served,69.06,7:55,True,False,32
+1/7/2014,Katerina’s Café,51.41,13:41,True,False,32
+1/7/2014,Guy's Gyros,31.23,19:48,True,True,32
+1/8/2014,Brew've Been Served,91.87,7:55,True,False,32
+1/8/2014,Gelatogalore,119.75,13:39,True,False,32
+1/8/2014,Guy's Gyros,99.08,20:15,True,False,32
+1/9/2014,Brew've Been Served,92.12,8:01,True,False,32
+1/9/2014,Abila Zacharo,8.16,13:24,True,True,32
+1/9/2014,Frydos Autosupply n' More,138.02,19:32,True,True,32
+1/10/2014,Brew've Been Served,5.01,7:45,True,True,32
+1/10/2014,Kalami Kafenion,35.69,13:30,True,True,32
+1/11/2014,Katerina’s Café,71.65,13:43,True,True,32
+1/13/2014,Brew've Been Served,78.23,7:57,True,False,32
+1/14/2014,Brew've Been Served,10.96,7:45,True,True,32
+1/14/2014,Ouzeri Elian,107.32,13:40,True,False,32
+1/14/2014,Albert's Fine Clothing,50.77,20:05,True,True,32
+1/15/2014,Brew've Been Served,14.06,7:58,True,True,32
+1/15/2014,Ouzeri Elian,12.9,13:22,True,True,32
+1/15/2014,Guy's Gyros,98.04,19:53,True,False,32
+1/16/2014,Brew've Been Served,19.9,7:36,True,True,32
+1/16/2014,Katerina’s Café,34.02,13:27,True,True,32
+1/16/2014,Guy's Gyros,8.31,19:09,True,True,32
+1/17/2014,Brew've Been Served,13.66,8:03,True,True,32
+1/17/2014,Guy's Gyros,22.18,13:21,True,True,32
+1/17/2014,Guy's Gyros,37.55,20:16,True,True,32
+1/18/2014,Katerina’s Café,19.3,13:34,True,True,32
+1/18/2014,Guy's Gyros,39.68,19:08,True,True,32
+1/19/2014,Kronos Mart,87.66,3:13,True,False,32
+1/19/2014,Ouzeri Elian,23.65,13:27,True,True,32
+1/19/2014,Frydos Autosupply n' More,56.09,15:26,True,True,32
+1/19/2014,Guy's Gyros,58.35,19:45,True,True,32
+1/6/2014,Kalami Kafenion,30.1,,False,True,32
+1/7/2014,Brew've Been Served,9.06,,False,True,32
+1/7/2014,Katerina’s Café,31.41,,False,True,32
+1/8/2014,Brew've Been Served,11.87,,False,True,32
+1/8/2014,Gelatogalore,39.75,,False,True,32
+1/8/2014,Guy's Gyros,19.08,,False,True,32
+1/9/2014,Brew've Been Served,12.12,,False,True,32
+1/12/2014,Guy's Gyros,42.78,,False,True,32
+1/13/2014,Brew've Been Served,18.23,,False,True,32
+1/14/2014,Ouzeri Elian,27.32,,False,True,32
+1/15/2014,Guy's Gyros,18.04,,False,True,32
+1/18/2014,Kronos Mart,87.66,,False,True,32
+1/6/2014,Brew've Been Served,8.88,7:59,True,True,33
+1/6/2014,Gelatogalore,23.41,14:00,True,True,33
+1/6/2014,Guy's Gyros,28.94,20:24,True,True,33
+1/7/2014,Brew've Been Served,3.03,8:06,True,False,33
+1/7/2014,Abila Zacharo,65.9,13:55,True,False,33
+1/7/2014,Guy's Gyros,14.87,19:45,True,True,33
+1/8/2014,Brew've Been Served,17.13,8:01,True,True,33
+1/8/2014,Gelatogalore,116.72,13:48,True,False,33
+1/8/2014,Guy's Gyros,22.91,20:58,True,False,33
+1/9/2014,Brew've Been Served,6.61,8:00,True,False,33
+1/9/2014,Abila Zacharo,14.37,14:15,True,True,33
+1/10/2014,Brew've Been Served,3.03,8:09,True,True,33
+1/10/2014,Abila Zacharo,36.38,14:03,True,True,33
+1/10/2014,Shoppers' Delight,279.53,20:17,True,True,33
+1/11/2014,Kalami Kafenion,23.86,19:17,True,True,33
+1/12/2014,Ouzeri Elian,24.72,13:28,True,True,33
+1/12/2014,Shoppers' Delight,204.37,15:32,True,True,33
+1/13/2014,Brew've Been Served,6.69,8:22,True,True,33
+1/13/2014,Abila Zacharo,17.41,13:51,True,True,33
+1/13/2014,Guy's Gyros,15.84,20:18,True,True,33
+1/14/2014,Brew've Been Served,11.94,7:58,True,True,33
+1/14/2014,Katerina’s Café,33.54,13:58,True,True,33
+1/14/2014,Guy's Gyros,25.28,20:29,True,True,33
+1/15/2014,Brew've Been Served,6.58,7:48,True,True,33
+1/15/2014,Gelatogalore,39.4,13:58,True,True,33
+1/15/2014,General Grocer,126.2,19:56,True,False,33
+1/16/2014,Brew've Been Served,16.9,8:19,True,True,33
+1/16/2014,Guy's Gyros,29.7,13:42,True,True,33
+1/16/2014,Albert's Fine Clothing,91.71,20:25,True,True,33
+1/17/2014,Brew've Been Served,15.46,8:22,True,True,33
+1/17/2014,Gelatogalore,34.59,13:51,True,True,33
+1/17/2014,Guy's Gyros,8.31,20:21,True,True,33
+1/18/2014,Katerina’s Café,24.14,14:06,True,False,33
+1/18/2014,Katerina’s Café,37.21,20:15,True,True,33
+1/7/2014,Abila Zacharo,25.9,,False,True,33
+1/8/2014,Gelatogalore,36.72,,False,True,33
+1/15/2014,General Grocer,106.2,,False,True,33
+1/6/2014,Brew've Been Served,4.27,8:00,True,True,9
+1/6/2014,Kalami Kafenion,8.64,13:28,True,True,9
+1/6/2014,Frydos Autosupply n' More,149.3,20:47,True,False,9
+1/7/2014,Brew've Been Served,4.39,7:50,True,True,9
+1/7/2014,Kalami Kafenion,11.64,13:24,True,True,9
+1/8/2014,Brew've Been Served,8.4,7:58,True,True,9
+1/8/2014,Abila Zacharo,22.13,13:10,True,True,9
+1/8/2014,Katerina’s Café,34.25,19:32,True,True,9
+1/9/2014,Brew've Been Served,5.57,8:15,True,False,9
+1/9/2014,Gelatogalore,19.2,13:12,True,True,9
+1/9/2014,Katerina’s Café,53.78,20:27,True,False,9
+1/10/2014,Brew've Been Served,12.77,7:51,True,False,9
+1/10/2014,Kalami Kafenion,27.48,13:45,True,True,9
+1/10/2014,Katerina’s Café,21.28,20:42,True,True,9
+1/11/2014,Frydos Autosupply n' More,211.15,20:13,True,False,9
+1/12/2014,Ouzeri Elian,98.45,13:17,True,True,9
+1/12/2014,Katerina’s Café,40.94,19:43,True,True,9
+1/13/2014,Kronos Mart,147.3,3:00,True,False,9
+1/13/2014,Brew've Been Served,6.08,7:55,True,False,9
+1/13/2014,Katerina’s Café,93.57,20:44,True,False,9
+1/14/2014,Brew've Been Served,16.39,8:07,True,True,9
+1/14/2014,Kalami Kafenion,33.13,13:40,True,True,9
+1/14/2014,Katerina’s Café,31.94,20:19,True,True,9
+1/15/2014,Brew've Been Served,12.39,8:05,True,False,9
+1/15/2014,Kalami Kafenion,38.5,13:37,True,True,9
+1/16/2014,Katerina’s Café,39.74,13:27,True,True,9
+1/16/2014,Katerina’s Café,69.3,20:05,True,False,9
+1/17/2014,Brew've Been Served,18.15,8:12,True,True,9
+1/17/2014,Kalami Kafenion,39.43,13:38,True,False,9
+1/17/2014,Katerina’s Café,33.73,21:05,True,True,9
+1/18/2014,Frydos Autosupply n' More,234.53,18:51,True,True,9
+1/6/2014,Frydos Autosupply n' More,89.3,,False,True,9
+1/9/2014,Katerina’s Café,13.78,,False,True,9
+1/12/2014,Kronos Mart,147.3,,False,True,9
+1/13/2014,Hippokampos,14.04,,False,True,9
+1/13/2014,Katerina’s Café,33.57,,False,True,9
+1/15/2014,Katerina’s Café,38.81,,False,True,9
+1/16/2014,Katerina’s Café,29.3,,False,True,9
+1/6/2014,Hallowed Grounds,9.69,8:00,True,False,10
+1/6/2014,Hippokampos,34.03,13:20,True,True,10
+1/6/2014,Katerina’s Café,28.0,20:30,True,True,10
+1/7/2014,Hallowed Grounds,10.33,7:57,True,True,10
+1/7/2014,Gelatogalore,15.4,13:57,True,True,10
+1/7/2014,Katerina’s Café,25.54,20:33,True,True,10
+1/8/2014,Hallowed Grounds,11.63,7:57,True,True,10
+1/8/2014,Frydos Autosupply n' More,268.89,20:28,True,True,10
+1/9/2014,Kalami Kafenion,35.99,14:03,True,True,10
+1/9/2014,Katerina’s Café,90.97,20:09,True,False,10
+1/10/2014,Hallowed Grounds,9.34,8:06,True,True,10
+1/10/2014,Abila Zacharo,9.32,14:09,True,True,10
+1/11/2014,Hippokampos,82.23,13:37,True,False,10
+1/11/2014,Katerina’s Café,20.71,19:32,True,True,10
+1/13/2014,Hallowed Grounds,6.32,7:57,True,True,10
+1/13/2014,Katerina’s Café,30.84,19:59,True,False,10
+1/14/2014,Hallowed Grounds,6.16,8:16,True,True,10
+1/14/2014,Katerina’s Café,31.69,13:43,True,True,10
+1/15/2014,Hallowed Grounds,78.69,7:51,True,False,10
+1/15/2014,Guy's Gyros,12.19,13:45,True,True,10
+1/16/2014,Hallowed Grounds,18.23,8:07,True,True,10
+1/16/2014,Hippokampos,13.05,13:35,True,True,10
+1/17/2014,Hallowed Grounds,5.52,7:59,True,True,10
+1/18/2014,Katerina’s Café,34.54,13:15,True,True,10
+1/18/2014,Albert's Fine Clothing,189.52,15:57,True,True,10
+1/18/2014,Katerina’s Café,35.79,19:36,True,False,10
+1/8/2014,Kalami Kafenion,18.18,,False,True,10
+1/9/2014,Hallowed Grounds,16.72,,False,True,10
+1/9/2014,Katerina’s Café,30.97,,False,True,10
+1/11/2014,Hippokampos,22.23,,False,True,10
+1/14/2014,Katerina’s Café,28.05,,False,True,10
+1/15/2014,Hallowed Grounds,18.69,,False,True,10
+1/15/2014,Katerina’s Café,36.8,,False,True,10
+1/17/2014,Hippokampos,23.54,,False,True,10
+1/6/2014,Hallowed Grounds,10.07,8:01,True,True,34
+1/6/2014,Katerina’s Café,13.59,13:50,True,True,34
+1/6/2014,Katerina’s Café,12.32,20:08,True,True,34
+1/7/2014,Hallowed Grounds,19.59,7:41,True,False,34
+1/7/2014,Gelatogalore,71.77,13:52,True,False,34
+1/7/2014,Katerina’s Café,55.63,20:12,True,False,34
+1/8/2014,Hallowed Grounds,8.15,7:39,True,True,34
+1/8/2014,Guy's Gyros,15.86,13:51,True,True,34
+1/8/2014,Katerina’s Café,27.87,21:09,True,True,34
+1/9/2014,Abila Zacharo,20.73,13:40,True,True,34
+1/10/2014,Hallowed Grounds,12.03,7:41,True,True,34
+1/10/2014,Abila Zacharo,8.22,13:59,True,True,34
+1/11/2014,Katerina’s Café,57.6,20:46,True,False,34
+1/12/2014,Hippokampos,12.57,14:04,True,True,34
+1/12/2014,Katerina’s Café,87.09,20:48,True,False,34
+1/13/2014,Bean There Done That,10.37,12:00,True,True,34
+1/13/2014,Katerina’s Café,8.29,13:40,True,True,34
+1/13/2014,Katerina’s Café,27.59,21:00,True,True,34
+1/14/2014,Hallowed Grounds,19.99,7:54,True,True,34
+1/14/2014,Guy's Gyros,16.35,13:44,True,True,34
+1/14/2014,Katerina’s Café,12.65,20:26,True,True,34
+1/15/2014,Kalami Kafenion,26.17,13:35,True,True,34
+1/15/2014,Frydos Autosupply n' More,18.66,20:33,True,False,34
+1/16/2014,Hallowed Grounds,7.22,7:54,True,True,34
+1/16/2014,Gelatogalore,32.4,13:48,True,True,34
+1/16/2014,Frydos Autosupply n' More,53.37,19:45,True,True,34
+1/17/2014,Hallowed Grounds,18.6,7:52,True,True,34
+1/17/2014,Kalami Kafenion,20.02,13:51,True,True,34
+1/18/2014,Guy's Gyros,27.4,13:28,True,True,34
+1/18/2014,Frydos Autosupply n' More,361.54,15:32,True,False,34
+1/18/2014,Katerina’s Café,22.74,19:31,True,True,34
+1/19/2014,Katerina’s Café,33.79,20:05,True,True,34
+1/7/2014,Gelatogalore,31.77,,False,True,34
+1/9/2014,Hallowed Grounds,17.84,,False,True,34
+1/11/2014,Katerina’s Café,17.6,,False,True,34
+1/12/2014,Katerina’s Café,27.09,,False,True,34
+1/18/2014,Frydos Autosupply n' More,281.54,,False,True,34
+1/6/2014,Brew've Been Served,18.24,8:06,True,True,35
+1/6/2014,Katerina’s Café,39.41,13:59,True,True,35
+1/7/2014,Brewed Awakenings,64.84,12:00,True,False,35
+1/7/2014,Hippokampos,51.69,13:53,True,False,35
+1/7/2014,Guy's Gyros,62.33,20:14,True,False,35
+1/8/2014,Brew've Been Served,32.92,7:48,True,False,35
+1/8/2014,Frank's Fuel,65.34,12:29,True,True,35
+1/8/2014,Guy's Gyros,77.9,13:40,True,False,35
+1/8/2014,Frydos Autosupply n' More,182.56,20:17,True,True,35
+1/9/2014,Jack's Magical Beans,6.0,12:00,True,True,35
+1/9/2014,Katerina’s Café,10.42,13:35,True,True,35
+1/9/2014,Frydos Autosupply n' More,276.75,20:45,True,True,35
+1/10/2014,Brew've Been Served,14.45,8:09,True,True,35
+1/10/2014,Ouzeri Elian,35.24,13:35,True,True,35
+1/10/2014,Guy's Gyros,37.37,20:23,True,False,35
+1/11/2014,Gelatogalore,18.74,13:59,True,False,35
+1/12/2014,Guy's Gyros,34.41,19:32,True,True,35
+1/13/2014,Abila Zacharo,116.32,13:48,True,False,35
+1/13/2014,Shoppers' Delight,216.43,19:27,True,True,35
+1/14/2014,Brew've Been Served,6.45,7:48,True,True,35
+1/14/2014,Hippokampos,19.07,13:37,True,True,35
+1/14/2014,Guy's Gyros,10.85,20:25,True,False,35
+1/15/2014,Brew've Been Served,15.58,8:02,True,True,35
+1/15/2014,Gelatogalore,31.21,13:55,True,True,35
+1/15/2014,Guy's Gyros,61.43,20:59,True,False,35
+1/16/2014,Brew've Been Served,5.82,8:02,True,True,35
+1/16/2014,Ouzeri Elian,12.47,13:45,True,True,35
+1/16/2014,Guy's Gyros,25.78,20:17,True,False,35
+1/17/2014,Brew've Been Served,3.09,8:15,True,True,35
+1/17/2014,Guy's Gyros,39.14,13:38,True,True,35
+1/17/2014,Guy's Gyros,8.54,20:24,True,True,35
+1/18/2014,Katerina’s Café,9.72,20:13,True,True,35
+1/19/2014,Guy's Gyros,20.94,20:25,True,True,35
+1/7/2014,Brewed Awakenings,4.84,,False,True,35
+1/7/2014,Guy's Gyros,22.33,,False,True,35
+1/7/2014,Hippokampos,31.69,,False,True,35
+1/8/2014,Brew've Been Served,12.92,,False,True,35
+1/8/2014,Guy's Gyros,17.9,,False,True,35
+1/13/2014,Abila Zacharo,36.32,,False,True,35
+1/13/2014,Brew've Been Served,12.8,,False,True,35
+1/15/2014,Guy's Gyros,21.43,,False,True,35
+1/18/2014,Kalami Kafenion,10.48,,False,True,35
+1/6/2014,Brew've Been Served,15.58,8:06,True,True,36
+1/6/2014,Kalami Kafenion,22.31,13:52,True,True,36
+1/6/2014,Albert's Fine Clothing,121.76,21:03,True,True,36
+1/7/2014,Brew've Been Served,3.0,7:52,True,True,36
+1/7/2014,Katerina’s Café,10.9,14:07,True,True,36
+1/8/2014,Brew've Been Served,6.3,8:18,True,True,36
+1/8/2014,Guy's Gyros,10.34,13:57,True,True,36
+1/8/2014,Guy's Gyros,30.48,19:48,True,True,36
+1/9/2014,Brew've Been Served,6.21,8:00,True,True,36
+1/9/2014,Hippokampos,65.7,13:56,True,False,36
+1/9/2014,Guy's Gyros,31.31,21:09,True,True,36
+1/10/2014,Brew've Been Served,12.64,8:17,True,True,36
+1/10/2014,Kalami Kafenion,24.3,13:53,True,True,36
+1/10/2014,General Grocer,227.28,21:28,True,True,36
+1/11/2014,Hippokampos,103.38,13:36,True,False,36
+1/11/2014,Albert's Fine Clothing,211.47,16:01,True,True,36
+1/13/2014,Brew've Been Served,16.05,8:04,True,True,36
+1/13/2014,Hippokampos,17.17,12:27,True,True,36
+1/14/2014,Abila Zacharo,24.87,14:03,True,True,36
+1/14/2014,Frydos Autosupply n' More,42.72,20:33,True,True,36
+1/15/2014,Brew've Been Served,49.7,8:01,True,False,36
+1/15/2014,Hippokampos,118.23,14:02,True,False,36
+1/15/2014,Guy's Gyros,31.04,19:55,True,True,36
+1/16/2014,Brew've Been Served,17.44,8:09,True,True,36
+1/16/2014,Gelatogalore,10.62,17:07,True,True,36
+1/16/2014,Roberts and Sons,155.76,20:25,True,True,36
+1/17/2014,Coffee Cameleon,14.99,8:13,True,False,36
+1/17/2014,Katerina’s Café,35.52,13:53,True,True,36
+1/17/2014,Guy's Gyros,55.4,21:07,True,False,36
+1/18/2014,Katerina’s Café,33.41,19:32,True,True,36
+1/19/2014,Katerina’s Café,26.76,13:53,True,True,36
+1/19/2014,Guy's Gyros,31.94,20:30,True,True,36
+1/9/2014,Hippokampos,25.7,,False,True,36
+1/11/2014,Hippokampos,23.38,,False,True,36
+1/13/2014,Frydos Autosupply n' More,87.57,,False,True,36
+1/14/2014,Brewed Awakenings,12.74,,False,True,36
+1/15/2014,Brew've Been Served,9.7,,False,True,36
+1/15/2014,Hippokampos,38.23,,False,True,36
+1/17/2014,Guy's Gyros,15.4,,False,True,36
+1/6/2014,Brew've Been Served,5.66,8:07,True,True,37
+1/6/2014,Katerina’s Café,19.65,14:17,True,True,37
+1/6/2014,Guy's Gyros,11.94,20:09,True,True,37
+1/7/2014,Brew've Been Served,47.74,8:18,True,False,37
+1/7/2014,Ouzeri Elian,59.51,14:09,True,False,37
+1/7/2014,Frydos Autosupply n' More,312.73,20:20,True,False,37
+1/8/2014,Brew've Been Served,10.15,8:03,True,True,37
+1/8/2014,Abila Zacharo,30.85,13:51,True,True,37
+1/8/2014,Guy's Gyros,10.28,20:57,True,False,37
+1/9/2014,Brew've Been Served,19.47,7:58,True,True,37
+1/9/2014,Guy's Gyros,8.87,13:56,True,False,37
+1/9/2014,Frydos Autosupply n' More,31.24,20:20,True,False,37
+1/10/2014,Brew've Been Served,5.31,8:01,True,True,37
+1/10/2014,Hippokampos,39.89,13:58,True,True,37
+1/10/2014,Guy's Gyros,29.81,20:09,True,True,37
+1/11/2014,Abila Zacharo,45.2,14:19,True,True,37
+1/11/2014,Frydos Autosupply n' More,261.0,20:26,True,True,37
+1/12/2014,Guy's Gyros,34.74,13:31,True,True,37
+1/12/2014,Ahaggo Museum,120.2,16:27,True,True,37
+1/13/2014,Brew've Been Served,13.19,8:21,True,False,37
+1/13/2014,Guy's Gyros,12.76,14:13,True,True,37
+1/13/2014,Shoppers' Delight,144.4,20:45,True,True,37
+1/14/2014,Brew've Been Served,12.31,8:13,True,True,37
+1/14/2014,Hippokampos,17.18,13:57,True,True,37
+1/14/2014,Frydos Autosupply n' More,146.74,20:43,True,True,37
+1/15/2014,Brew've Been Served,18.58,8:14,True,True,37
+1/15/2014,Kalami Kafenion,28.82,14:13,True,True,37
+1/16/2014,Brew've Been Served,16.67,8:03,True,False,37
+1/16/2014,Abila Zacharo,8.43,13:55,True,True,37
+1/16/2014,Guy's Gyros,28.27,20:09,True,True,37
+1/17/2014,Brew've Been Served,5.29,8:17,True,True,37
+1/17/2014,Guy's Gyros,32.31,13:55,True,False,37
+1/17/2014,Guy's Gyros,16.83,19:46,True,True,37
+1/18/2014,Kalami Kafenion,53.36,14:17,True,True,37
+1/18/2014,General Grocer,108.49,20:07,True,True,37
+1/19/2014,Abila Zacharo,47.8,14:20,True,True,37
+1/19/2014,Guy's Gyros,39.6,20:51,True,True,37
+1/7/2014,Brew've Been Served,7.74,,False,True,37
+1/7/2014,Frydos Autosupply n' More,272.73,,False,True,37
+1/7/2014,Ouzeri Elian,19.51,,False,True,37
+1/6/2014,Coffee Cameleon,3.2,8:14,True,False,11
+1/6/2014,Abila Zacharo,106.93,13:18,True,False,11
+1/6/2014,Katerina’s Café,21.66,20:19,True,False,11
+1/7/2014,Coffee Cameleon,52.44,8:01,True,False,11
+1/7/2014,Abila Zacharo,32.4,13:44,True,True,11
+1/8/2014,Coffee Cameleon,16.17,8:22,True,True,11
+1/8/2014,Gelatogalore,22.27,13:47,True,True,11
+1/8/2014,Frydos Autosupply n' More,214.07,20:07,True,True,11
+1/9/2014,Hippokampos,27.47,13:29,True,True,11
+1/9/2014,Katerina’s Café,30.69,20:38,True,False,11
+1/10/2014,Coffee Cameleon,9.69,7:54,True,True,11
+1/10/2014,Katerina’s Café,21.22,13:38,True,True,11
+1/11/2014,Katerina’s Café,45.21,13:23,True,True,11
+1/11/2014,Shoppers' Delight,238.52,15:20,True,True,11
+1/11/2014,Katerina’s Café,94.68,20:24,True,True,11
+1/13/2014,Coffee Cameleon,17.49,7:55,True,True,11
+1/13/2014,Katerina’s Café,38.98,13:23,True,True,11
+1/13/2014,Frydos Autosupply n' More,202.05,21:11,True,True,11
+1/14/2014,Coffee Cameleon,11.67,7:52,True,True,11
+1/15/2014,Coffee Cameleon,56.31,8:05,True,False,11
+1/15/2014,Katerina’s Café,88.56,13:17,True,False,11
+1/15/2014,Katerina’s Café,29.66,20:29,True,True,11
+1/16/2014,Coffee Cameleon,63.14,8:03,True,False,11
+1/16/2014,Ouzeri Elian,8.52,14:00,True,True,11
+1/16/2014,Katerina’s Café,35.43,20:25,True,True,11
+1/17/2014,Coffee Cameleon,7.49,8:07,True,True,11
+1/17/2014,Hippokampos,38.21,13:16,True,True,11
+1/18/2014,Katerina’s Café,32.68,19:56,True,True,11
+1/6/2014,Abila Zacharo,26.93,,False,True,11
+1/7/2014,Coffee Cameleon,12.44,,False,True,11
+1/9/2014,Coffee Cameleon,4.88,,False,True,11
+1/14/2014,Katerina’s Café,11.26,,False,True,11
+1/15/2014,Coffee Cameleon,16.31,,False,True,11
+1/15/2014,Katerina’s Café,28.56,,False,True,11
+1/16/2014,Coffee Cameleon,3.14,,False,True,11
+1/17/2014,Katerina’s Café,21.16,,False,True,11
+1/6/2014,Brew've Been Served,14.97,8:16,True,True,38
+1/6/2014,Abila Zacharo,50.14,13:27,True,False,38
+1/7/2014,Brew've Been Served,11.92,7:54,True,True,38
+1/7/2014,Kalami Kafenion,45.05,13:24,True,False,38
+1/8/2014,Brew've Been Served,7.26,8:16,True,True,38
+1/8/2014,Gelatogalore,50.36,13:38,True,False,38
+1/8/2014,Ouzeri Elian,62.2,20:12,True,False,38
+1/9/2014,Brew've Been Served,17.64,8:14,True,True,38
+1/9/2014,Abila Zacharo,48.39,13:47,True,False,38
+1/9/2014,Guy's Gyros,18.26,20:24,True,True,38
+1/10/2014,Brew've Been Served,5.89,8:01,True,True,38
+1/11/2014,Kalami Kafenion,50.2,20:04,True,False,38
+1/12/2014,Gelatogalore,20.09,13:40,True,False,38
+1/12/2014,Shoppers' Delight,86.22,15:24,True,True,38
+1/12/2014,Gelatogalore,36.2,19:50,True,False,38
+1/13/2014,Brew've Been Served,11.49,8:07,True,True,38
+1/13/2014,Abila Zacharo,64.5,13:21,True,False,38
+1/13/2014,Guy's Gyros,88.57,20:42,True,False,38
+1/14/2014,Brew've Been Served,3.21,8:03,True,True,38
+1/14/2014,Guy's Gyros,50.4,13:59,True,False,38
+1/15/2014,Brew've Been Served,11.23,7:49,True,True,38
+1/15/2014,Katerina’s Café,55.6,13:27,True,False,38
+1/15/2014,Guy's Gyros,27.01,21:05,True,True,38
+1/16/2014,Brew've Been Served,12.67,7:52,True,True,38
+1/16/2014,Abila Zacharo,64.71,13:22,True,False,38
+1/16/2014,Shoppers' Delight,16.84,20:50,True,True,38
+1/17/2014,Brew've Been Served,51.04,8:23,True,False,38
+1/17/2014,Hippokampos,52.31,13:38,True,False,38
+1/17/2014,Shoppers' Delight,289.33,20:21,True,False,38
+1/18/2014,Ahaggo Museum,55.55,14:51,True,False,38
+1/18/2014,Hippokampos,49.21,20:01,True,False,38
+1/19/2014,Guy's Gyros,23.21,19:45,True,False,38
+1/13/2014,Guy's Gyros,28.57,,False,True,38
+1/17/2014,Brew've Been Served,11.04,,False,True,38
+1/17/2014,Shoppers' Delight,269.33,,False,True,38
+1/6/2014,Brew've Been Served,11.2,8:16,True,True,12
+1/6/2014,Katerina’s Café,33.54,13:28,True,True,12
+1/6/2014,Katerina’s Café,78.65,18:56,True,False,12
+1/7/2014,Brew've Been Served,15.66,8:09,True,True,12
+1/7/2014,Ouzeri Elian,21.85,13:50,True,True,12
+1/7/2014,Katerina’s Café,31.6,20:18,True,True,12
+1/8/2014,Brew've Been Served,11.48,8:09,True,True,12
+1/8/2014,Gelatogalore,32.79,13:27,True,True,12
+1/8/2014,Katerina’s Café,13.83,20:00,True,True,12
+1/9/2014,Brew've Been Served,5.26,7:57,True,False,12
+1/9/2014,Gelatogalore,23.23,13:35,True,True,12
+1/10/2014,Brew've Been Served,14.36,8:20,True,True,12
+1/10/2014,Guy's Gyros,38.15,13:44,True,True,12
+1/10/2014,Katerina’s Café,8.14,20:09,True,True,12
+1/11/2014,Katerina’s Café,15.72,19:52,True,False,12
+1/12/2014,Katerina’s Café,16.34,20:17,True,True,12
+1/13/2014,Brew've Been Served,13.37,8:00,True,True,12
+1/13/2014,Guy's Gyros,21.03,13:51,True,True,12
+1/13/2014,Frydos Autosupply n' More,64.6,19:59,True,True,12
+1/14/2014,Brew've Been Served,11.53,8:13,True,True,12
+1/14/2014,Abila Zacharo,31.09,13:35,True,True,12
+1/14/2014,Katerina’s Café,25.4,20:50,True,True,12
+1/15/2014,Brew've Been Served,5.75,7:58,True,True,12
+1/15/2014,Kalami Kafenion,37.15,13:36,True,True,12
+1/15/2014,Katerina’s Café,29.33,20:17,True,True,12
+1/16/2014,Brew've Been Served,11.21,8:23,True,True,12
+1/16/2014,Hippokampos,30.02,13:55,True,False,12
+1/16/2014,Katerina’s Café,93.68,18:49,True,False,12
+1/17/2014,Brew've Been Served,14.58,8:19,True,True,12
+1/17/2014,Kalami Kafenion,24.21,13:53,True,True,12
+1/18/2014,Katerina’s Café,37.26,14:00,True,True,12
+1/18/2014,Katerina’s Café,45.88,20:04,True,True,12
+1/6/2014,Katerina’s Café,38.65,,False,True,12
+1/16/2014,Katerina’s Café,13.68,,False,True,12
+1/6/2014,Brew've Been Served,15.39,8:17,True,True,13
+1/6/2014,Hippokampos,38.25,13:58,True,True,13
+1/6/2014,Frydos Autosupply n' More,80.85,20:12,True,True,13
+1/7/2014,Brew've Been Served,17.4,7:58,True,True,13
+1/7/2014,Katerina’s Café,37.44,13:57,True,True,13
+1/7/2014,Katerina’s Café,65.02,20:13,True,False,13
+1/8/2014,Brew've Been Served,3.92,8:01,True,True,13
+1/8/2014,Kalami Kafenion,22.49,13:42,True,True,13
+1/8/2014,Katerina’s Café,16.93,20:35,True,True,13
+1/9/2014,Brew've Been Served,98.25,7:56,True,False,13
+1/9/2014,Guy's Gyros,27.69,14:09,True,True,13
+1/9/2014,Katerina’s Café,29.82,20:22,True,True,13
+1/10/2014,Brew've Been Served,8.47,8:17,True,False,13
+1/10/2014,Gelatogalore,32.19,14:11,True,True,13
+1/10/2014,Frydos Autosupply n' More,43.65,20:02,True,True,13
+1/11/2014,Katerina’s Café,52.45,20:06,True,True,13
+1/12/2014,Frydos Autosupply n' More,161.96,20:43,True,True,13
+1/13/2014,Brew've Been Served,19.89,8:23,True,True,13
+1/13/2014,Gelatogalore,36.24,14:00,True,True,13
+1/14/2014,Brew've Been Served,9.53,7:53,True,True,13
+1/14/2014,Hippokampos,16.73,14:16,True,True,13
+1/14/2014,Katerina’s Café,46.61,20:42,True,False,13
+1/15/2014,Brew've Been Served,3.47,8:06,True,True,13
+1/15/2014,Guy's Gyros,16.58,13:46,True,True,13
+1/15/2014,Katerina’s Café,61.61,20:26,True,False,13
+1/16/2014,Brew've Been Served,90.33,8:08,True,False,13
+1/16/2014,Kalami Kafenion,9.27,13:45,True,True,13
+1/16/2014,Katerina’s Café,30.56,20:39,True,True,13
+1/17/2014,Brew've Been Served,9.3,8:09,True,False,13
+1/17/2014,Guy's Gyros,15.12,14:00,True,True,13
+1/17/2014,Katerina’s Café,36.12,20:19,True,True,13
+1/18/2014,Kalami Kafenion,42.73,14:02,True,True,13
+1/18/2014,Katerina’s Café,11.19,19:46,True,False,13
+1/7/2014,Katerina’s Café,25.02,,False,True,13
+1/9/2014,Brew've Been Served,18.25,,False,True,13
+1/14/2014,Katerina’s Café,26.61,,False,True,13
+1/15/2014,Katerina’s Café,21.61,,False,True,13
+1/6/2014,Abila Airport,4540.08,8:23,True,True,14
+1/6/2014,Kronos Pipe and Irrigation,242.21,9:06,True,True,14
+1/6/2014,Maximum Iron and Steel,2859.51,10:18,True,True,14
+1/6/2014,Carlyle Chemical Inc.,3959.66,11:57,True,True,14
+1/6/2014,Abila Airport,777.06,15:14,True,True,14
+1/13/2014,Abila Airport,3617.47,8:15,True,True,14
+1/13/2014,Kronos Pipe and Irrigation,2892.74,8:58,True,False,14
+1/13/2014,Maximum Iron and Steel,689.85,10:20,True,True,14
+1/13/2014,Carlyle Chemical Inc.,1718.96,12:00,True,True,14
+1/13/2014,Ouzeri Elian,19.82,12:55,True,True,14
+1/6/2014,Ouzeri Elian,16.84,,False,True,14
+1/13/2014,Kronos Pipe and Irrigation,2852.74,,False,True,14
+1/6/2014,Nationwide Refinery,761.64,10:02,True,True,15
+1/6/2014,Stewart and Sons Fabrication,2144.62,11:33,True,True,15
+1/7/2014,Nationwide Refinery,1347.36,10:11,True,True,15
+1/7/2014,Stewart and Sons Fabrication,1843.33,11:31,True,False,15
+1/8/2014,Nationwide Refinery,3674.32,10:14,True,True,15
+1/8/2014,Stewart and Sons Fabrication,1673.77,11:58,True,True,15
+1/9/2014,Nationwide Refinery,674.28,10:16,True,True,15
+1/9/2014,Stewart and Sons Fabrication,3544.0,11:37,True,True,15
+1/10/2014,Nationwide Refinery,1552.82,10:00,True,True,15
+1/10/2014,Stewart and Sons Fabrication,4074.1,11:49,True,True,15
+1/13/2014,Nationwide Refinery,204.58,10:12,True,True,15
+1/14/2014,Nationwide Refinery,965.72,10:03,True,True,15
+1/14/2014,Stewart and Sons Fabrication,278.52,11:55,True,True,15
+1/15/2014,Nationwide Refinery,1391.24,10:14,True,True,15
+1/15/2014,Stewart and Sons Fabrication,4740.68,11:44,True,False,15
+1/16/2014,Nationwide Refinery,1494.44,10:16,True,True,15
+1/16/2014,Stewart and Sons Fabrication,4543.31,11:45,True,True,15
+1/17/2014,Stewart and Sons Fabrication,1753.17,11:32,True,True,15
+1/7/2014,Stewart and Sons Fabrication,1783.33,,False,True,15
+1/13/2014,Stewart and Sons Fabrication,4071.95,,False,True,15
+1/6/2014,Coffee Shack,51.51,12:00,True,False,16
+1/6/2014,Kalami Kafenion,13.08,14:00,True,True,16
+1/6/2014,Hippokampos,24.41,20:46,True,True,16
+1/7/2014,Coffee Shack,16.63,12:00,True,True,16
+1/7/2014,Albert's Fine Clothing,78.91,20:10,True,True,16
+1/8/2014,Coffee Shack,13.13,12:00,True,True,16
+1/8/2014,Kalami Kafenion,34.98,14:15,True,True,16
+1/8/2014,Hippokampos,96.75,20:28,True,False,16
+1/9/2014,Coffee Shack,5.01,12:00,True,True,16
+1/9/2014,Gelatogalore,36.75,14:18,True,True,16
+1/9/2014,Albert's Fine Clothing,224.52,20:21,True,True,16
+1/10/2014,Hippokampos,11.61,14:07,True,False,16
+1/10/2014,Hippokampos,19.88,19:56,True,True,16
+1/11/2014,Kalami Kafenion,35.66,14:09,True,True,16
+1/11/2014,Hippokampos,69.8,20:27,True,True,16
+1/12/2014,Hippokampos,29.2,13:35,True,True,16
+1/12/2014,General Grocer,159.3,15:46,True,True,16
+1/13/2014,Coffee Shack,4.09,12:00,True,True,16
+1/13/2014,Guy's Gyros,38.07,14:00,True,True,16
+1/13/2014,Hippokampos,32.29,21:13,True,True,16
+1/14/2014,Coffee Shack,3.63,12:00,True,True,16
+1/14/2014,Ouzeri Elian,19.7,14:01,True,True,16
+1/15/2014,Gelatogalore,24.96,13:46,True,True,16
+1/15/2014,Albert's Fine Clothing,228.15,20:46,True,True,16
+1/16/2014,Coffee Shack,10.48,12:00,True,True,16
+1/16/2014,Ouzeri Elian,8.47,14:01,True,True,16
+1/16/2014,Albert's Fine Clothing,283.38,20:08,True,True,16
+1/17/2014,Coffee Shack,19.16,12:00,True,True,16
+1/17/2014,Guy's Gyros,21.1,14:05,True,True,16
+1/17/2014,Hippokampos,19.76,19:40,True,True,16
+1/18/2014,Hippokampos,55.03,20:26,True,True,16
+1/6/2014,Coffee Shack,11.51,,False,True,16
+1/8/2014,Hippokampos,16.75,,False,True,16
+1/15/2014,Coffee Shack,18.17,,False,True,16
+1/6/2014,Bean There Done That,10.28,12:00,True,True,39
+1/6/2014,Guy's Gyros,15.44,13:24,True,True,39
+1/6/2014,Hippokampos,21.33,20:46,True,True,39
+1/7/2014,Bean There Done That,51.25,12:00,True,False,39
+1/7/2014,Abila Zacharo,13.52,13:20,True,True,39
+1/7/2014,Hippokampos,11.56,20:02,True,True,39
+1/8/2014,Bean There Done That,17.45,12:00,True,True,39
+1/8/2014,Abila Zacharo,14.41,13:34,True,True,39
+1/8/2014,Hippokampos,10.52,19:21,True,True,39
+1/9/2014,Bean There Done That,13.0,12:00,True,True,39
+1/9/2014,Guy's Gyros,74.91,13:43,True,False,39
+1/10/2014,Bean There Done That,15.39,12:00,True,True,39
+1/10/2014,Gelatogalore,26.15,13:35,True,True,39
+1/10/2014,Hippokampos,48.22,19:46,True,False,39
+1/11/2014,Hippokampos,70.23,20:23,True,True,39
+1/12/2014,Hippokampos,66.63,19:29,True,True,39
+1/13/2014,Bean There Done That,7.93,12:00,True,True,39
+1/13/2014,Gelatogalore,36.93,13:41,True,True,39
+1/13/2014,Hippokampos,31.59,20:42,True,True,39
+1/14/2014,Bean There Done That,7.28,12:00,True,True,39
+1/14/2014,Guy's Gyros,13.27,13:36,True,False,39
+1/14/2014,Hippokampos,39.64,19:44,True,True,39
+1/15/2014,Guy's Gyros,14.37,13:22,True,True,39
+1/15/2014,Hippokampos,13.02,19:55,True,False,39
+1/16/2014,Bean There Done That,19.82,12:00,True,True,39
+1/16/2014,Hippokampos,31.14,13:36,True,True,39
+1/17/2014,Kronos Mart,286.24,8:08,True,False,39
+1/17/2014,Bean There Done That,19.67,12:00,True,True,39
+1/17/2014,Ouzeri Elian,14.01,13:38,True,False,39
+1/18/2014,Hippokampos,72.5,20:11,True,True,39
+1/19/2014,Hippokampos,78.96,20:16,True,True,39
+1/7/2014,Bean There Done That,11.25,,False,True,39
+1/9/2014,Guy's Gyros,14.91,,False,True,39
+1/10/2014,Hippokampos,28.22,,False,True,39
+1/16/2014,Kronos Mart,286.24,,False,True,39
+1/6/2014,Bean There Done That,16.09,12:00,True,True,40
+1/6/2014,Guy's Gyros,30.82,13:46,True,True,40
+1/7/2014,Guy's Gyros,10.11,13:46,True,True,40
+1/8/2014,Bean There Done That,12.07,12:00,True,True,40
+1/8/2014,Hippokampos,28.79,13:48,True,True,40
+1/8/2014,Albert's Fine Clothing,136.01,20:45,True,True,40
+1/9/2014,Hippokampos,8.43,13:41,True,True,40
+1/9/2014,Hippokampos,10.12,21:38,True,True,40
+1/10/2014,Bean There Done That,3.92,12:00,True,True,40
+1/10/2014,Guy's Gyros,31.5,13:47,True,True,40
+1/11/2014,Hippokampos,67.37,19:53,True,True,40
+1/12/2014,Hippokampos,78.21,20:05,True,True,40
+1/13/2014,Bean There Done That,98.02,12:00,True,False,40
+1/13/2014,Abila Zacharo,11.99,13:42,True,True,40
+1/14/2014,Bean There Done That,19.37,12:00,True,True,40
+1/14/2014,Kalami Kafenion,17.38,13:24,True,True,40
+1/14/2014,Albert's Fine Clothing,228.72,20:50,True,True,40
+1/15/2014,Bean There Done That,5.34,12:00,True,True,40
+1/15/2014,Abila Zacharo,88.83,13:45,True,False,40
+1/15/2014,Hippokampos,35.12,20:10,True,True,40
+1/16/2014,Bean There Done That,12.33,12:00,True,True,40
+1/16/2014,Kalami Kafenion,91.38,13:48,True,False,40
+1/17/2014,Bean There Done That,8.21,12:00,True,True,40
+1/17/2014,Gelatogalore,23.23,13:33,True,True,40
+1/17/2014,Hippokampos,12.86,21:58,True,True,40
+1/18/2014,Frank's Fuel,52.66,18:39,True,True,40
+1/18/2014,Kalami Kafenion,71.14,19:39,True,False,40
+1/19/2014,Hippokampos,101.25,19:43,True,True,40
+1/13/2014,Bean There Done That,18.02,,False,True,40
+1/15/2014,Abila Zacharo,8.83,,False,True,40
+1/16/2014,Hippokampos,10.55,,False,True,40
+1/16/2014,Kalami Kafenion,31.38,,False,True,40
+1/18/2014,Kalami Kafenion,11.14,,False,True,40
+1/6/2014,Brewed Awakenings,5.72,12:00,True,True,41
+1/6/2014,Abila Zacharo,30.08,13:27,True,True,41
+1/6/2014,Hippokampos,17.27,20:52,True,True,41
+1/7/2014,Brewed Awakenings,12.17,12:00,True,False,41
+1/7/2014,Abila Zacharo,52.72,13:33,True,False,41
+1/7/2014,Hippokampos,35.85,21:21,True,False,41
+1/8/2014,Brewed Awakenings,11.73,12:00,True,True,41
+1/8/2014,Hippokampos,26.31,20:53,True,True,41
+1/9/2014,Brewed Awakenings,11.76,12:00,True,False,41
+1/9/2014,Ouzeri Elian,26.09,13:21,True,True,41
+1/10/2014,Kronos Mart,203.91,9:30,True,False,41
+1/10/2014,Brewed Awakenings,13.82,12:00,True,True,41
+1/10/2014,Katerina’s Café,34.76,13:30,True,True,41
+1/10/2014,Hippokampos,70.48,20:09,True,False,41
+1/11/2014,Hippokampos,31.1,13:47,True,False,41
+1/11/2014,Frydos Autosupply n' More,52.73,16:09,True,True,41
+1/11/2014,Hippokampos,66.21,19:26,True,True,41
+1/12/2014,Desafio Golf Course,220.77,14:13,True,False,41
+1/12/2014,Hippokampos,63.32,20:38,True,True,41
+1/13/2014,Brewed Awakenings,12.69,12:00,True,True,41
+1/13/2014,Albert's Fine Clothing,288.0,20:35,True,True,41
+1/14/2014,Brewed Awakenings,17.14,12:00,True,True,41
+1/14/2014,Hippokampos,23.69,13:25,True,False,41
+1/15/2014,Abila Zacharo,23.51,13:26,True,True,41
+1/15/2014,Hippokampos,11.8,20:16,True,False,41
+1/16/2014,Brewed Awakenings,17.91,12:00,True,False,41
+1/16/2014,Katerina’s Café,27.82,13:19,True,True,41
+1/16/2014,Hippokampos,20.84,21:13,True,True,41
+1/17/2014,Brewed Awakenings,8.16,12:00,True,True,41
+1/17/2014,Guy's Gyros,8.64,13:18,True,True,41
+1/17/2014,Hippokampos,11.93,20:54,True,True,41
+1/18/2014,Katerina’s Café,96.36,14:03,True,True,41
+1/18/2014,Roberts and Sons,125.35,19:46,True,False,41
+1/19/2014,Desafio Golf Course,145.72,12:57,True,True,41
+1/7/2014,Abila Zacharo,12.72,,False,True,41
+1/7/2014,Hippokampos,15.85,,False,True,41
+1/8/2014,Ouzeri Elian,32.61,,False,True,41
+1/9/2014,Kronos Mart,203.91,,False,True,41
+1/10/2014,Hippokampos,10.48,,False,True,41
+1/11/2014,Hippokampos,20.87,,False,True,41
+1/12/2014,Desafio Golf Course,160.77,,False,True,41
+1/13/2014,Abila Zacharo,36.14,,False,True,41
+1/15/2014,Brewed Awakenings,15.75,,False,True,41
+1/6/2014,Jack's Magical Beans,11.03,12:00,True,True,42
+1/6/2014,Katerina’s Café,18.56,13:46,True,True,42
+1/7/2014,Jack's Magical Beans,23.68,12:00,True,False,42
+1/7/2014,Abila Zacharo,82.25,13:25,True,False,42
+1/8/2014,Jack's Magical Beans,3.96,12:00,True,True,42
+1/8/2014,Katerina’s Café,8.53,13:28,True,True,42
+1/8/2014,Ouzeri Elian,29.85,21:17,True,True,42
+1/9/2014,Jack's Magical Beans,10.11,12:00,True,True,42
+1/9/2014,Gelatogalore,8.6,13:23,True,True,42
+1/9/2014,Ouzeri Elian,27.08,19:42,True,False,42
+1/10/2014,Jack's Magical Beans,15.69,12:00,True,True,42
+1/10/2014,Abila Zacharo,113.33,13:29,True,False,42
+1/10/2014,Ouzeri Elian,19.92,18:52,True,True,42
+1/11/2014,Ouzeri Elian,69.36,19:21,True,True,42
+1/12/2014,Ouzeri Elian,55.55,19:59,True,True,42
+1/13/2014,Jack's Magical Beans,18.31,12:00,True,True,42
+1/13/2014,Katerina’s Café,26.15,13:34,True,True,42
+1/14/2014,Kronos Mart,58.85,8:20,True,False,42
+1/14/2014,Ouzeri Elian,79.58,13:41,True,False,42
+1/14/2014,Ouzeri Elian,11.86,20:32,True,True,42
+1/15/2014,Jack's Magical Beans,11.15,12:00,True,False,42
+1/15/2014,Hippokampos,13.0,13:24,True,True,42
+1/15/2014,Ouzeri Elian,23.18,20:29,True,True,42
+1/16/2014,Jack's Magical Beans,9.12,12:00,True,True,42
+1/16/2014,Hippokampos,36.17,13:26,True,True,42
+1/16/2014,Ouzeri Elian,23.89,20:25,True,True,42
+1/17/2014,Jack's Magical Beans,7.57,12:00,True,True,42
+1/17/2014,Ouzeri Elian,38.6,19:40,True,True,42
+1/18/2014,Ouzeri Elian,57.63,19:21,True,True,42
+1/19/2014,Ouzeri Elian,67.98,19:48,True,True,42
+1/7/2014,Abila Zacharo,22.25,,False,True,42
+1/7/2014,Jack's Magical Beans,3.68,,False,True,42
+1/10/2014,Abila Zacharo,33.33,,False,True,42
+1/14/2014,Jack's Magical Beans,13.32,,False,True,42
+1/6/2014,Brewed Awakenings,16.89,12:00,True,True,43
+1/6/2014,Ouzeri Elian,38.9,13:22,True,True,43
+1/7/2014,Brewed Awakenings,71.59,12:00,True,False,43
+1/7/2014,Hippokampos,21.2,21:03,True,True,43
+1/8/2014,Brewed Awakenings,12.32,12:00,True,True,43
+1/8/2014,Chostus Hotel,107.51,12:56,True,True,43
+1/8/2014,Hippokampos,16.54,19:28,True,True,43
+1/9/2014,Brewed Awakenings,13.16,12:00,True,True,43
+1/9/2014,Gelatogalore,56.74,13:23,True,False,43
+1/9/2014,Hippokampos,15.02,20:05,True,True,43
+1/10/2014,Brewed Awakenings,6.17,12:00,True,True,43
+1/10/2014,Chostus Hotel,197.41,13:11,True,False,43
+1/11/2014,Abila Zacharo,89.54,13:33,True,True,43
+1/11/2014,Katerina’s Café,57.36,19:40,True,True,43
+1/12/2014,Kalami Kafenion,54.36,13:52,True,False,43
+1/12/2014,Hippokampos,69.41,20:15,True,False,43
+1/13/2014,Brewed Awakenings,56.4,12:00,True,False,43
+1/13/2014,Guy's Gyros,27.49,13:33,True,True,43
+1/14/2014,Brewed Awakenings,8.3,12:00,True,True,43
+1/14/2014,Chostus Hotel,109.54,13:17,True,True,43
+1/14/2014,Hippokampos,22.13,21:31,True,True,43
+1/15/2014,Brewed Awakenings,91.62,12:00,True,False,43
+1/15/2014,Hippokampos,82.61,13:41,True,False,43
+1/15/2014,Frydos Autosupply n' More,18.91,19:52,True,True,43
+1/16/2014,Brewed Awakenings,6.53,12:00,True,True,43
+1/16/2014,Hippokampos,10.38,13:30,True,True,43
+1/17/2014,Brewed Awakenings,88.69,12:00,True,False,43
+1/17/2014,Chostus Hotel,159.62,13:54,True,False,43
+1/17/2014,Hippokampos,8.92,20:03,True,True,43
+1/18/2014,Abila Zacharo,25.59,13:05,True,False,43
+1/19/2014,Albert's Fine Clothing,254.29,20:02,True,True,43
+1/7/2014,Brewed Awakenings,11.59,,False,True,43
+1/7/2014,Guy's Gyros,34.09,,False,True,43
+1/9/2014,Gelatogalore,16.74,,False,True,43
+1/12/2014,Hippokampos,29.41,,False,True,43
+1/12/2014,Kalami Kafenion,26.04,,False,True,43
+1/13/2014,Brewed Awakenings,16.4,,False,True,43
+1/15/2014,Brewed Awakenings,11.62,,False,True,43
+1/15/2014,Hippokampos,22.61,,False,True,43
+1/17/2014,Brewed Awakenings,8.69,,False,True,43
+1/17/2014,Chostus Hotel,119.62,,False,True,43
+1/18/2014,Abila Zacharo,73.25,,False,True,43
+1/18/2014,Roberts and Sons,239.65,,False,True,43
+1/6/2014,Bean There Done That,8.54,12:00,True,True,44
+1/6/2014,Hippokampos,8.64,13:57,True,True,44
+1/6/2014,Hippokampos,26.8,20:36,True,True,44
+1/7/2014,Bean There Done That,53.89,12:00,True,False,44
+1/7/2014,Kalami Kafenion,22.83,13:45,True,True,44
+1/7/2014,Hippokampos,20.17,20:01,True,True,44
+1/8/2014,Bean There Done That,8.06,12:00,True,False,44
+1/8/2014,Katerina’s Café,27.05,13:47,True,False,44
+1/9/2014,Bean There Done That,4.06,12:00,True,True,44
+1/9/2014,Katerina’s Café,8.01,14:06,True,True,44
+1/9/2014,Hippokampos,70.68,20:15,True,False,44
+1/10/2014,Bean There Done That,13.41,12:00,True,True,44
+1/10/2014,Ouzeri Elian,15.25,13:50,True,True,44
+1/11/2014,Hippokampos,11.13,19:33,True,False,44
+1/12/2014,Albert's Fine Clothing,63.36,19:58,True,True,44
+1/13/2014,Bean There Done That,19.56,12:00,True,True,44
+1/13/2014,Ouzeri Elian,29.75,14:06,True,True,44
+1/14/2014,Bean There Done That,14.56,12:00,True,False,44
+1/14/2014,Gelatogalore,70.98,13:49,True,False,44
+1/15/2014,Bean There Done That,93.13,12:00,True,False,44
+1/15/2014,Hippokampos,32.4,13:42,True,True,44
+1/15/2014,Hippokampos,16.37,20:24,True,True,44
+1/16/2014,Bean There Done That,5.56,12:00,True,True,44
+1/16/2014,Guy's Gyros,32.8,14:05,True,True,44
+1/16/2014,Shoppers' Delight,160.69,20:45,True,False,44
+1/17/2014,Bean There Done That,19.56,12:00,True,True,44
+1/17/2014,Hippokampos,21.81,13:58,True,False,44
+1/18/2014,Hippokampos,100.11,13:21,True,False,44
+1/18/2014,Frydos Autosupply n' More,103.55,15:51,True,True,44
+1/18/2014,Hippokampos,29.21,20:23,True,False,44
+1/7/2014,Bean There Done That,13.89,,False,True,44
+1/8/2014,Hippokampos,12.62,,False,True,44
+1/14/2014,Gelatogalore,10.98,,False,True,44
+1/14/2014,Hippokampos,10.71,,False,True,44
+1/15/2014,Bean There Done That,13.13,,False,True,44
+1/16/2014,Shoppers' Delight,100.69,,False,True,44
+1/17/2014,Hippokampos,10.14,,False,True,44
+1/18/2014,Hippokampos,20.11,,False,True,44
+1/19/2014,Hippokampos,11.56,,False,True,44
+1/6/2014,Brewed Awakenings,4.35,12:00,True,True,45
+1/6/2014,Katerina’s Café,13.68,12:56,True,False,45
+1/6/2014,Hippokampos,20.61,21:52,True,True,45
+1/7/2014,Brewed Awakenings,6.72,12:00,True,True,45
+1/7/2014,Gelatogalore,35.06,13:20,True,True,45
+1/7/2014,Hippokampos,22.18,21:51,True,True,45
+1/8/2014,Brewed Awakenings,15.03,12:00,True,False,45
+1/8/2014,Hippokampos,26.55,13:12,True,True,45
+1/8/2014,Hippokampos,15.64,20:49,True,True,45
+1/9/2014,Brewed Awakenings,17.66,12:00,True,True,45
+1/9/2014,Ouzeri Elian,31.03,12:59,True,False,45
+1/9/2014,Albert's Fine Clothing,229.98,21:27,True,True,45
+1/10/2014,Brewed Awakenings,13.9,12:00,True,True,45
+1/10/2014,Hippokampos,17.21,20:50,True,True,45
+1/11/2014,Hippokampos,63.21,19:45,True,True,45
+1/12/2014,Ouzeri Elian,38.55,13:03,True,True,45
+1/12/2014,Desafio Golf Course,198.46,14:14,True,True,45
+1/12/2014,Hippokampos,26.79,19:44,True,True,45
+1/13/2014,Brewed Awakenings,16.25,12:00,True,True,45
+1/13/2014,Gelatogalore,46.45,13:19,True,False,45
+1/13/2014,Hippokampos,31.47,21:12,True,True,45
+1/14/2014,Brewed Awakenings,11.35,12:00,True,True,45
+1/14/2014,Kalami Kafenion,15.15,13:24,True,True,45
+1/14/2014,Hippokampos,43.56,20:48,True,False,45
+1/15/2014,Brewed Awakenings,3.62,12:00,True,True,45
+1/15/2014,Hippokampos,36.7,13:12,True,True,45
+1/15/2014,Shoppers' Delight,162.0,20:10,True,False,45
+1/16/2014,Brewed Awakenings,6.39,12:00,True,True,45
+1/16/2014,Hippokampos,17.66,13:19,True,True,45
+1/16/2014,Hippokampos,12.47,20:58,True,False,45
+1/17/2014,Brewed Awakenings,6.0,12:00,True,True,45
+1/17/2014,Abila Zacharo,68.78,13:11,True,False,45
+1/18/2014,Hippokampos,63.21,19:42,True,True,45
+1/19/2014,Kronos Mart,150.36,3:48,True,False,45
+1/19/2014,Desafio Golf Course,190.91,13:51,True,True,45
+1/19/2014,Hippokampos,48.23,19:43,True,True,45
+1/10/2014,Hippokampos,30.63,,False,True,45
+1/13/2014,Gelatogalore,26.45,,False,True,45
+1/14/2014,Hippokampos,23.56,,False,True,45
+1/15/2014,Shoppers' Delight,102.0,,False,True,45
+1/17/2014,Abila Zacharo,8.78,,False,True,45
+1/17/2014,Hippokampos,14.93,,False,True,45
+1/18/2014,Kalami Kafenion,42.36,,False,True,45
+1/18/2014,Kronos Mart,150.36,,False,True,45
+1/6/2014,Bean There Done That,5.24,12:00,True,True,46
+1/6/2014,Kalami Kafenion,22.13,13:47,True,False,46
+1/6/2014,Hippokampos,35.34,20:20,True,True,46
+1/7/2014,Bean There Done That,8.03,12:00,True,True,46
+1/7/2014,Ouzeri Elian,16.2,13:56,True,False,46
+1/7/2014,Hippokampos,70.19,20:34,True,False,46
+1/8/2014,Bean There Done That,94.96,12:00,True,False,46
+1/8/2014,Hippokampos,37.89,13:31,True,True,46
+1/9/2014,Bean There Done That,15.53,12:00,True,False,46
+1/9/2014,Hippokampos,9.12,13:37,True,True,46
+1/9/2014,Frydos Autosupply n' More,120.65,20:21,True,False,46
+1/10/2014,Bean There Done That,18.67,12:00,True,True,46
+1/10/2014,Guy's Gyros,31.05,13:52,True,True,46
+1/11/2014,Katerina’s Café,23.45,13:50,True,True,46
+1/12/2014,Hippokampos,27.15,19:22,True,True,46
+1/13/2014,Bean There Done That,5.54,12:00,True,True,46
+1/13/2014,Abila Zacharo,27.3,13:34,True,True,46
+1/13/2014,Albert's Fine Clothing,49.48,20:42,True,True,46
+1/14/2014,Bean There Done That,67.82,12:00,True,False,46
+1/14/2014,Kalami Kafenion,15.27,13:51,True,True,46
+1/15/2014,Bean There Done That,18.96,12:00,True,True,46
+1/15/2014,Ouzeri Elian,36.47,13:31,True,True,46
+1/15/2014,Hippokampos,10.35,20:23,True,True,46
+1/16/2014,Bean There Done That,98.34,12:00,True,False,46
+1/16/2014,Hippokampos,14.89,13:43,True,True,46
+1/16/2014,Hippokampos,29.13,20:13,True,True,46
+1/17/2014,Bean There Done That,18.72,12:00,True,True,46
+1/17/2014,Katerina’s Café,13.11,13:48,True,True,46
+1/17/2014,Albert's Fine Clothing,39.41,19:44,True,True,46
+1/18/2014,Kalami Kafenion,24.14,13:58,True,True,46
+1/18/2014,Hippokampos,21.34,19:21,True,False,46
+1/19/2014,Hippokampos,88.27,19:44,True,False,46
+1/7/2014,Hippokampos,10.19,,False,True,46
+1/8/2014,Bean There Done That,14.96,,False,True,46
+1/9/2014,Frydos Autosupply n' More,60.65,,False,True,46
+1/14/2014,Bean There Done That,7.82,,False,True,46
+1/6/2014,Bean There Done That,4.27,12:00,True,True,47
+1/6/2014,Ouzeri Elian,20.4,13:42,True,True,47
+1/6/2014,Hippokampos,85.5,20:29,True,False,47
+1/7/2014,Bean There Done That,46.25,12:00,True,False,47
+1/7/2014,Ouzeri Elian,64.84,13:34,True,False,47
+1/7/2014,Albert's Fine Clothing,308.36,20:04,True,False,47
+1/8/2014,Katerina’s Café,57.04,13:42,True,False,47
+1/8/2014,Hippokampos,32.66,20:02,True,True,47
+1/9/2014,Kalami Kafenion,110.76,13:27,True,False,47
+1/9/2014,Hippokampos,24.96,21:01,True,True,47
+1/10/2014,Bean There Done That,9.3,12:00,True,True,47
+1/10/2014,Katerina’s Café,25.62,13:47,True,True,47
+1/10/2014,Albert's Fine Clothing,126.13,20:11,True,True,47
+1/11/2014,Katerina’s Café,29.1,13:32,True,True,47
+1/12/2014,Hippokampos,49.23,19:35,True,True,47
+1/13/2014,Bean There Done That,18.59,12:00,True,True,47
+1/14/2014,Bean There Done That,5.9,12:00,True,True,47
+1/14/2014,Katerina’s Café,10.03,13:22,True,True,47
+1/14/2014,Hippokampos,28.45,21:04,True,False,47
+1/15/2014,Bean There Done That,15.24,12:00,True,True,47
+1/15/2014,Kalami Kafenion,47.86,13:45,True,False,47
+1/15/2014,Hippokampos,101.14,21:08,True,False,47
+1/16/2014,Bean There Done That,17.4,12:00,True,True,47
+1/16/2014,Hippokampos,114.0,20:42,True,False,47
+1/17/2014,Bean There Done That,5.77,12:00,True,True,47
+1/18/2014,Ouzeri Elian,33.57,13:18,True,True,47
+1/18/2014,Albert's Fine Clothing,35.66,15:20,True,True,47
+1/18/2014,Hippokampos,27.21,19:35,True,True,47
+1/19/2014,Gelatogalore,22.36,13:09,True,True,47
+1/19/2014,General Grocer,70.22,15:03,True,True,47
+1/19/2014,Hippokampos,46.32,19:44,True,True,47
+1/6/2014,Hippokampos,25.5,,False,True,47
+1/7/2014,Albert's Fine Clothing,228.36,,False,True,47
+1/7/2014,Bean There Done That,6.25,,False,True,47
+1/7/2014,Ouzeri Elian,24.84,,False,True,47
+1/8/2014,Bean There Done That,16.18,,False,True,47
+1/8/2014,Katerina’s Café,37.04,,False,True,47
+1/9/2014,Bean There Done That,4.05,,False,True,47
+1/9/2014,Kalami Kafenion,30.76,,False,True,47
+1/13/2014,Abila Zacharo,23.03,,False,True,47
+1/15/2014,Hippokampos,21.14,,False,True,47
+1/15/2014,Kalami Kafenion,27.86,,False,True,47
+1/16/2014,Hippokampos,34.0,,False,True,47
+1/16/2014,Kalami Kafenion,26.32,,False,True,47
+1/17/2014,Abila Zacharo,21.21,,False,True,47
+1/6/2014,Jack's Magical Beans,18.59,12:00,True,True,48
+1/6/2014,Frydos Autosupply n' More,273.87,19:50,True,False,48
+1/7/2014,Jack's Magical Beans,18.77,12:00,True,True,48
+1/7/2014,Ouzeri Elian,11.41,20:15,True,True,48
+1/8/2014,Jack's Magical Beans,18.78,12:00,True,True,48
+1/9/2014,Jack's Magical Beans,12.13,12:00,True,False,48
+1/9/2014,Ouzeri Elian,31.07,19:43,True,False,48
+1/10/2014,Jack's Magical Beans,16.29,12:00,True,True,48
+1/10/2014,Kalami Kafenion,101.5,13:35,True,True,48
+1/13/2014,Jack's Magical Beans,5.22,12:00,True,True,48
+1/14/2014,Jack's Magical Beans,63.36,12:00,True,False,48
+1/14/2014,Ouzeri Elian,24.06,20:41,True,False,48
+1/15/2014,Jack's Magical Beans,5.3,12:00,True,True,48
+1/15/2014,Ouzeri Elian,28.86,19:18,True,True,48
+1/16/2014,Jack's Magical Beans,14.86,12:00,True,True,48
+1/16/2014,Ouzeri Elian,29.99,21:16,True,True,48
+1/17/2014,Jack's Magical Beans,19.11,12:00,True,True,48
+1/17/2014,Ouzeri Elian,70.21,20:07,True,False,48
+1/19/2014,Ahaggo Museum,26.91,13:26,True,True,48
+1/6/2014,Abila Zacharo,50.14,,False,True,48
+1/6/2014,Frydos Autosupply n' More,253.87,,False,True,48
+1/7/2014,Kalami Kafenion,45.05,,False,True,48
+1/8/2014,Gelatogalore,50.36,,False,True,48
+1/8/2014,Ouzeri Elian,62.2,,False,True,48
+1/9/2014,Abila Zacharo,48.39,,False,True,48
+1/11/2014,Kalami Kafenion,50.2,,False,True,48
+1/12/2014,Gelatogalore,36.2,,False,True,48
+1/13/2014,Abila Zacharo,64.5,,False,True,48
+1/14/2014,Guy's Gyros,50.4,,False,True,48
+1/14/2014,Jack's Magical Beans,3.36,,False,True,48
+1/15/2014,Katerina’s Café,55.6,,False,True,48
+1/16/2014,Abila Zacharo,64.71,,False,True,48
+1/17/2014,Hippokampos,52.31,,False,True,48
+1/17/2014,Ouzeri Elian,10.21,,False,True,48
+1/18/2014,Ahaggo Museum,55.55,,False,True,48
+1/18/2014,Hippokampos,49.21,,False,True,48
+1/19/2014,Guy's Gyros,23.21,,False,True,48
+1/6/2014,Jack's Magical Beans,27.84,12:00,True,False,49
+1/6/2014,Hippokampos,9.16,12:57,True,False,49
+1/6/2014,Hippokampos,28.14,21:11,True,False,49
+1/7/2014,Jack's Magical Beans,19.61,12:00,True,True,49
+1/7/2014,Guy's Gyros,29.57,13:13,True,True,49
+1/7/2014,Hippokampos,32.99,20:51,True,False,49
+1/8/2014,Jack's Magical Beans,12.37,12:00,True,True,49
+1/8/2014,Ouzeri Elian,109.73,13:21,True,False,49
+1/9/2014,Jack's Magical Beans,15.55,12:00,True,False,49
+1/9/2014,Katerina’s Café,25.85,13:27,True,True,49
+1/9/2014,Hippokampos,23.66,21:12,True,True,49
+1/10/2014,Jack's Magical Beans,5.46,12:00,True,True,49
+1/10/2014,Guy's Gyros,36.44,13:12,True,True,49
+1/10/2014,Hippokampos,27.0,21:17,True,False,49
+1/11/2014,Katerina’s Café,45.22,13:19,True,True,49
+1/11/2014,Albert's Fine Clothing,105.33,19:27,True,True,49
+1/12/2014,Kronos Mart,277.26,3:39,True,False,49
+1/12/2014,Ouzeri Elian,117.22,13:32,True,True,49
+1/12/2014,Hippokampos,52.21,19:51,True,True,49
+1/13/2014,Jack's Magical Beans,9.64,12:00,True,True,49
+1/13/2014,Gelatogalore,32.83,13:03,True,True,49
+1/13/2014,Hippokampos,99.63,21:27,True,False,49
+1/14/2014,Jack's Magical Beans,95.7,12:00,True,False,49
+1/14/2014,Katerina’s Café,29.12,13:14,True,True,49
+1/15/2014,Jack's Magical Beans,84.06,12:00,True,False,49
+1/15/2014,Kalami Kafenion,22.39,13:08,True,True,49
+1/15/2014,Hippokampos,37.16,21:42,True,True,49
+1/16/2014,Jack's Magical Beans,12.56,12:00,True,True,49
+1/16/2014,Hippokampos,26.15,13:22,True,False,49
+1/17/2014,Gelatogalore,15.84,13:17,True,True,49
+1/18/2014,Abila Zacharo,111.93,13:04,True,True,49
+1/18/2014,Shoppers' Delight,258.33,15:40,True,True,49
+1/18/2014,Albert's Fine Clothing,226.49,18:59,True,True,49
+1/19/2014,Desafio Golf Course,150.07,12:41,True,True,49
+1/6/2014,Jack's Magical Beans,7.84,,False,True,49
+1/8/2014,Ouzeri Elian,29.73,,False,True,49
+1/13/2014,Hippokampos,39.63,,False,True,49
+1/14/2014,Jack's Magical Beans,15.7,,False,True,49
+1/15/2014,Jack's Magical Beans,4.06,,False,True,49
+1/19/2014,Hippokampos,45.32,,False,True,49
+1/6/2014,Jack's Magical Beans,18.1,12:00,True,True,50
+1/6/2014,Guy's Gyros,99.67,13:46,True,False,50
+1/7/2014,Jack's Magical Beans,69.84,12:00,True,False,50
+1/7/2014,Gelatogalore,8.98,13:35,True,True,50
+1/7/2014,Hippokampos,37.88,21:17,True,True,50
+1/8/2014,Jack's Magical Beans,31.25,12:00,True,False,50
+1/8/2014,Abila Zacharo,36.85,13:23,True,True,50
+1/8/2014,Hippokampos,78.99,21:32,True,False,50
+1/9/2014,Jack's Magical Beans,37.43,12:00,True,False,50
+1/9/2014,Abila Zacharo,8.6,13:32,True,True,50
+1/9/2014,Hippokampos,9.13,20:41,True,True,50
+1/10/2014,Jack's Magical Beans,8.22,12:00,True,False,50
+1/10/2014,Hippokampos,32.01,13:40,True,True,50
+1/10/2014,Hippokampos,79.97,22:21,True,False,50
+1/12/2014,Desafio Golf Course,129.33,13:45,True,True,50
+1/13/2014,Jack's Magical Beans,17.52,12:00,True,True,50
+1/13/2014,Guy's Gyros,29.25,13:40,True,True,50
+1/13/2014,Hippokampos,29.22,20:35,True,True,50
+1/14/2014,Gelatogalore,39.17,13:33,True,True,50
+1/14/2014,Hippokampos,9.55,20:22,True,True,50
+1/15/2014,Jack's Magical Beans,19.54,12:00,True,True,50
+1/15/2014,Gelatogalore,9.61,13:39,True,True,50
+1/16/2014,Jack's Magical Beans,6.95,12:00,True,True,50
+1/16/2014,Gelatogalore,12.33,13:33,True,True,50
+1/16/2014,Hippokampos,27.74,20:43,True,False,50
+1/17/2014,Kalami Kafenion,105.32,13:37,True,False,50
+1/17/2014,Hippokampos,38.19,21:29,True,True,50
+1/18/2014,Kalami Kafenion,38.91,13:28,True,True,50
+1/18/2014,Frydos Autosupply n' More,120.67,15:53,True,True,50
+1/18/2014,Hippokampos,53.21,19:36,True,True,50
+1/19/2014,Desafio Golf Course,110.02,15:15,True,True,50
+1/19/2014,Hippokampos,63.17,19:56,True,True,50
+1/6/2014,Guy's Gyros,19.67,,False,True,50
+1/7/2014,Jack's Magical Beans,9.84,,False,True,50
+1/8/2014,Hippokampos,18.99,,False,True,50
+1/8/2014,Jack's Magical Beans,11.25,,False,True,50
+1/9/2014,Jack's Magical Beans,17.43,,False,True,50
+1/10/2014,Hippokampos,39.97,,False,True,50
+1/14/2014,Jack's Magical Beans,18.08,,False,True,50
+1/15/2014,General Grocer,83.11,,False,True,50
+1/17/2014,Kalami Kafenion,25.32,,False,True,50
+1/6/2014,Abila Airport,1873.79,12:16,True,False,17
+1/6/2014,Abila Airport,612.47,15:39,True,True,17
+1/7/2014,Abila Airport,124.89,12:29,True,True,17
+1/7/2014,Abila Airport,3411.29,15:41,True,True,17
+1/8/2014,Abila Airport,2723.18,12:45,True,True,17
+1/8/2014,Abila Airport,2769.12,15:29,True,True,17
+1/9/2014,Abila Airport,202.93,12:13,True,False,17
+1/9/2014,Abila Airport,4538.52,15:50,True,True,17
+1/13/2014,Abila Airport,4417.03,12:11,True,True,17
+1/13/2014,Abila Airport,2228.08,16:56,True,True,17
+1/14/2014,Abila Airport,228.41,12:30,True,True,17
+1/14/2014,Abila Airport,4918.39,15:32,True,False,17
+1/15/2014,Abila Airport,3152.41,12:25,True,True,17
+1/15/2014,Abila Airport,875.87,15:40,True,True,17
+1/16/2014,Abila Airport,3917.3,12:40,True,True,17
+1/9/2014,Abila Airport,182.93,,False,True,17
+1/14/2014,Abila Airport,4898.39,,False,True,17
+1/16/2014,Abila Airport,3032.97,,False,True,17
+1/6/2014,Abila Zacharo,92.05,13:35,True,False,51
+1/6/2014,Shoppers' Delight,293.67,20:49,True,True,51
+1/7/2014,Guy's Gyros,38.56,13:20,True,True,51
+1/7/2014,Guy's Gyros,89.76,20:19,True,False,51
+1/8/2014,Brew've Been Served,15.66,7:31,True,True,51
+1/8/2014,Kalami Kafenion,31.96,13:44,True,True,51
+1/8/2014,Guy's Gyros,15.69,19:36,True,True,51
+1/9/2014,Brew've Been Served,34.85,7:48,True,False,51
+1/9/2014,Guy's Gyros,105.4,13:21,True,False,51
+1/9/2014,Guy's Gyros,31.81,19:41,True,True,51
+1/10/2014,Brew've Been Served,90.72,7:56,True,False,51
+1/10/2014,Katerina’s Café,25.36,13:36,True,True,51
+1/10/2014,Roberts and Sons,241.2,21:11,True,False,51
+1/11/2014,Guy's Gyros,16.33,20:09,True,True,51
+1/12/2014,Guy's Gyros,12.32,19:36,True,False,51
+1/13/2014,Brew've Been Served,19.64,7:53,True,True,51
+1/13/2014,Hippokampos,59.9,13:34,True,False,51
+1/13/2014,Guy's Gyros,22.34,20:09,True,True,51
+1/14/2014,Brew've Been Served,7.31,7:35,True,True,51
+1/14/2014,Katerina’s Café,20.95,13:32,True,True,51
+1/14/2014,Guy's Gyros,26.14,21:31,True,True,51
+1/15/2014,Brew've Been Served,19.24,7:50,True,False,51
+1/15/2014,Guy's Gyros,49.34,13:41,True,False,51
+1/15/2014,Guy's Gyros,28.75,20:02,True,True,51
+1/16/2014,Brew've Been Served,8.18,7:34,True,True,51
+1/16/2014,Hippokampos,18.18,13:44,True,True,51
+1/16/2014,Roberts and Sons,240.66,20:52,True,True,51
+1/17/2014,Brew've Been Served,10.52,7:57,True,True,51
+1/17/2014,Abila Zacharo,79.67,13:45,True,False,51
+1/17/2014,Frydos Autosupply n' More,260.08,20:41,True,False,51
+1/18/2014,Katerina’s Café,19.31,20:09,True,True,51
+1/19/2014,Katerina’s Café,35.01,13:00,True,True,51
+1/19/2014,Guy's Gyros,18.08,20:00,True,True,51
+1/6/2014,Abila Zacharo,12.05,,False,True,51
+1/6/2014,Brew've Been Served,10.68,,False,True,51
+1/7/2014,Brewed Awakenings,12.59,,False,True,51
+1/7/2014,Guy's Gyros,9.76,,False,True,51
+1/9/2014,Brew've Been Served,14.85,,False,True,51
+1/9/2014,Guy's Gyros,25.4,,False,True,51
+1/10/2014,Brew've Been Served,10.72,,False,True,51
+1/13/2014,Hippokampos,39.9,,False,True,51
+1/15/2014,Guy's Gyros,29.34,,False,True,51
+1/17/2014,Abila Zacharo,39.67,,False,True,51
+1/6/2014,Guy's Gyros,11.22,13:39,True,True,52
+1/6/2014,Frydos Autosupply n' More,314.98,21:32,True,False,52
+1/7/2014,Hallowed Grounds,7.88,7:47,True,True,52
+1/7/2014,Gelatogalore,51.64,13:30,True,False,52
+1/7/2014,Katerina’s Café,18.35,21:19,True,True,52
+1/8/2014,Hallowed Grounds,8.28,7:39,True,False,52
+1/8/2014,Katerina’s Café,88.98,13:34,True,False,52
+1/8/2014,Katerina’s Café,31.59,20:08,True,True,52
+1/9/2014,Hallowed Grounds,17.56,7:37,True,True,52
+1/9/2014,Hippokampos,13.84,13:51,True,True,52
+1/9/2014,Katerina’s Café,8.57,21:18,True,True,52
+1/10/2014,Hallowed Grounds,11.49,7:41,True,True,52
+1/10/2014,Abila Zacharo,36.73,13:36,True,True,52
+1/11/2014,Abila Zacharo,54.82,13:32,True,True,52
+1/11/2014,Roberts and Sons,256.24,16:00,True,False,52
+1/11/2014,Katerina’s Café,45.68,19:51,True,True,52
+1/12/2014,Ouzeri Elian,72.32,13:30,True,True,52
+1/12/2014,Shoppers' Delight,135.78,15:10,True,True,52
+1/13/2014,Hallowed Grounds,3.02,7:42,True,False,52
+1/13/2014,Ouzeri Elian,8.32,13:48,True,True,52
+1/13/2014,Katerina’s Café,91.36,20:33,True,False,52
+1/14/2014,Hallowed Grounds,4.59,7:42,True,True,52
+1/14/2014,Abila Zacharo,10.24,13:37,True,True,52
+1/15/2014,Hallowed Grounds,15.27,8:00,True,False,52
+1/15/2014,Katerina’s Café,12.12,14:00,True,True,52
+1/15/2014,Katerina’s Café,39.63,20:23,True,True,52
+1/16/2014,Hallowed Grounds,9.6,7:51,True,False,52
+1/16/2014,Hippokampos,8.07,13:54,True,False,52
+1/17/2014,Hallowed Grounds,3.25,7:31,True,True,52
+1/17/2014,Gelatogalore,37.3,13:40,True,False,52
+1/17/2014,Katerina’s Café,21.22,20:07,True,True,52
+1/18/2014,Katerina’s Café,33.63,19:54,True,True,52
+1/19/2014,Katerina’s Café,12.78,14:01,True,False,52
+1/6/2014,Frydos Autosupply n' More,274.98,,False,True,52
+1/13/2014,Katerina’s Café,11.36,,False,True,52
+1/7/2014,Abila Airport,3840.37,9:17,True,True,18
+1/7/2014,Stewart and Sons Fabrication,1200.9,10:05,True,True,18
+1/7/2014,Nationwide Refinery,1071.04,12:02,True,False,18
+1/9/2014,Abila Airport,2358.22,9:26,True,True,18
+1/9/2014,Stewart and Sons Fabrication,1015.65,10:38,True,True,18
+1/9/2014,Nationwide Refinery,1440.39,12:49,True,False,18
+1/14/2014,Stewart and Sons Fabrication,600.19,11:01,True,False,18
+1/14/2014,Nationwide Refinery,1341.01,13:00,True,False,18
+1/16/2014,Abila Airport,1676.53,9:18,True,True,18
+1/16/2014,Stewart and Sons Fabrication,940.3,11:06,True,False,18
+1/16/2014,Nationwide Refinery,2047.28,12:32,True,True,18
+1/9/2014,Nationwide Refinery,1420.39,,False,True,18
+1/14/2014,Abila Airport,2369.56,,False,True,18
+1/14/2014,Nationwide Refinery,1301.01,,False,True,18
+1/14/2014,Stewart and Sons Fabrication,540.19,,False,True,18
+1/16/2014,Stewart and Sons Fabrication,860.3,,False,True,18
+1/7/2014,Nationwide Refinery,1562.66,11:39,True,True,19
+1/7/2014,Katerina’s Café,59.07,13:08,True,False,19
+1/7/2014,Carlyle Chemical Inc.,4803.13,14:34,True,False,19
+1/8/2014,Carlyle Chemical Inc.,3048.31,9:43,True,False,19
+1/8/2014,Katerina’s Café,29.26,13:19,True,True,19
+1/8/2014,Carlyle Chemical Inc.,4901.88,14:26,True,True,19
+1/9/2014,Carlyle Chemical Inc.,529.47,9:54,True,True,19
+1/9/2014,Nationwide Refinery,289.3,11:34,True,True,19
+1/9/2014,Katerina’s Café,16.98,13:23,True,True,19
+1/9/2014,Carlyle Chemical Inc.,382.43,14:26,True,True,19
+1/9/2014,Carlyle Chemical Inc.,2176.2,16:22,True,True,19
+1/14/2014,Carlyle Chemical Inc.,3630.57,9:34,True,True,19
+1/14/2014,Nationwide Refinery,570.95,11:45,True,True,19
+1/14/2014,Katerina’s Café,34.45,13:21,True,False,19
+1/14/2014,Carlyle Chemical Inc.,854.88,14:21,True,False,19
+1/14/2014,Carlyle Chemical Inc.,3470.99,16:16,True,True,19
+1/15/2014,Carlyle Chemical Inc.,3608.08,9:34,True,True,19
+1/15/2014,Nationwide Refinery,3004.98,11:55,True,True,19
+1/15/2014,Katerina’s Café,24.15,13:13,True,True,19
+1/15/2014,Carlyle Chemical Inc.,1112.04,14:25,True,True,19
+1/15/2014,Carlyle Chemical Inc.,1392.73,17:01,True,True,19
+1/16/2014,Carlyle Chemical Inc.,419.93,9:52,True,True,19
+1/16/2014,Nationwide Refinery,4742.67,11:25,True,True,19
+1/16/2014,Katerina’s Café,34.9,13:23,True,True,19
+1/16/2014,Carlyle Chemical Inc.,1814.24,17:17,True,True,19
+1/7/2014,Carlyle Chemical Inc.,3827.2,,False,True,19
+1/7/2014,Katerina’s Café,19.07,,False,True,19
+1/8/2014,Nationwide Refinery,4367.43,,False,True,19
+1/14/2014,Carlyle Chemical Inc.,794.88,,False,True,19
+1/7/2014,Abila Scrapyard,2149.28,14:16,True,True,20
+1/7/2014,Stewart and Sons Fabrication,962.2,15:03,True,False,20
+1/7/2014,Nationwide Refinery,889.58,16:24,True,True,20
+1/9/2014,Abila Airport,4792.5,13:18,True,True,20
+1/9/2014,Abila Scrapyard,1158.36,14:12,True,True,20
+1/9/2014,Stewart and Sons Fabrication,918.6,15:00,True,True,20
+1/9/2014,Nationwide Refinery,1322.5,16:27,True,True,20
+1/14/2014,Abila Airport,3379.21,13:06,True,False,20
+1/14/2014,Abila Scrapyard,4277.4,14:13,True,True,20
+1/14/2014,Nationwide Refinery,4429.76,16:28,True,True,20
+1/16/2014,Abila Airport,3138.98,13:22,True,True,20
+1/16/2014,Abila Scrapyard,1897.05,16:56,True,True,20
+1/7/2014,Abila Airport,1641.96,,False,True,20
+1/14/2014,Abila Airport,3339.21,,False,True,20
+1/7/2014,Kronos Pipe and Irrigation,3920.82,14:19,True,True,21
+1/7/2014,Maximum Iron and Steel,3207.31,15:20,True,True,21
+1/8/2014,Carlyle Chemical Inc.,4983.52,13:03,True,True,21
+1/8/2014,Kronos Pipe and Irrigation,3615.61,14:09,True,True,21
+1/8/2014,Maximum Iron and Steel,3136.01,15:18,True,True,21
+1/9/2014,Carlyle Chemical Inc.,732.82,11:21,True,True,21
+1/9/2014,Kronos Pipe and Irrigation,423.14,14:28,True,True,21
+1/9/2014,Maximum Iron and Steel,1527.14,15:16,True,True,21
+1/15/2014,Kronos Pipe and Irrigation,2564.0,14:12,True,True,21
+1/15/2014,Maximum Iron and Steel,4788.22,15:11,True,True,21
+1/10/2014,Carlyle Chemical Inc.,3489.36,,False,True,21
+1/8/2014,Nationwide Refinery,4513.16,9:54,True,True,22
+1/8/2014,Stewart and Sons Fabrication,1738.26,11:28,True,True,22
+1/15/2014,Nationwide Refinery,1903.77,10:00,True,False,22
+1/15/2014,Stewart and Sons Fabrication,4545.38,11:18,True,False,22
+1/15/2014,Stewart and Sons Fabrication,4485.38,,False,True,22
+1/10/2014,Abila Airport,4039.36,7:59,True,False,23
+1/10/2014,Carlyle Chemical Inc.,227.81,9:09,True,True,23
+1/10/2014,Nationwide Refinery,2302.73,10:40,True,False,23
+1/10/2014,Stewart and Sons Fabrication,4195.49,12:10,True,True,23
+1/10/2014,Nationwide Refinery,2262.73,,False,True,23
+1/17/2014,Hallowed Grounds,9.72,7:56,True,True,53
+1/17/2014,Abila Zacharo,15.95,13:28,True,True,53
+1/18/2014,Chostus Hotel,600.0,12:03,True,True,53
+1/19/2014,Desafio Golf Course,148.22,15:46,True,True,53
+1/19/2014,Guy's Gyros,25.79,19:45,True,True,53
+1/18/2014,Katerina’s Café,14.22,,False,True,53
