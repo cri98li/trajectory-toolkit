@@ -6,8 +6,12 @@ but which, simultaneously also allow dimensionality reduction.
 
 ## Features:
 
+### Point Features
 - Speed: AVG, STD, MIN, MAX
 - Acceleration: AVG, STD, MIN, MAX
+- angle/direction: atan2 == Bearing: angle between the magnetic north and an object ??
+
+### Aggregate features
 - Turning Angle: AVG, STD, MIN, MAX. 𝐻𝐶𝑅 = |𝑃𝑐|/𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑒 Pc is the collection of gps points at which a user changes 
    his/her heading direction exceeding a certain threshold (Hc), and |𝑃𝑐 | represents the number of elements in Pc
 - Traveled Distance: SUM
@@ -17,8 +21,6 @@ but which, simultaneously also allow dimensionality reduction.
 - duration of movement?
 - traveled path?
 - displacement?
-- direction?
-- Bearing: angle between the magnetic north and an object
 - Bearing rate: B_rate(i+1) = (Bi+1 − Bi)/∆t
 - Rate of bearing rate: Br_rate(i+1) = (Brate(i+1) − Brate(i))/∆t
 
