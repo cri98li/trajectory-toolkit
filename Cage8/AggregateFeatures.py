@@ -57,40 +57,40 @@ def sum(features: np.ndarray, window, window_type = None, time=None, distance=No
 
     #np.sum(_rolling_window(features, window, window_type))
 
-    return np.sum(np.fromiter(_rolling_window(features, window, window_type, time, distance), dtype=np.dtype((float, 3))), axis=1)
+    return np.sum(np.fromiter(_rolling_window(features, window, window_type, time, distance), dtype=np.dtype((float, window))), axis=1)
 
 
 def max(features: np.ndarray, window, window_type = None, time=None, distance=None):
     if window is None:
         window = len(features)
 
-    return np.max(np.fromiter(_rolling_window(features, window, window_type, time, distance), dtype=np.dtype((float, 3))), axis=1)
+    return np.max(np.fromiter(_rolling_window(features, window, window_type, time, distance), dtype=np.dtype((float, window))), axis=1)
 
 
 def min(features: np.ndarray, window, window_type = None, time=None, distance=None):
     if window is None:
         window = len(features)
 
-    return np.min(np.fromiter(_rolling_window(features, window, window_type, time, distance), dtype=np.dtype((float, 3))), axis=1)
+    return np.min(np.fromiter(_rolling_window(features, window, window_type, time, distance), dtype=np.dtype((float, window))), axis=1)
 
 
 def std(features: np.ndarray, window, window_type = None, time=None, distance=None):
     if window is None:
         window = len(features)
 
-    return np.std(np.fromiter(_rolling_window(features, window, window_type, time, distance), dtype=np.dtype((float, 3))), axis=1)
+    return np.std(np.fromiter(_rolling_window(features, window, window_type, time, distance), dtype=np.dtype((float, window))), axis=1)
 
 def cov(features: np.ndarray, window, window_type = None, time=None, distance=None):
     if window is None:
         window = len(features)
 
-    return np.cov(np.fromiter(_rolling_window(features, window, window_type, time, distance), dtype=np.dtype((float, 3))), axis=1)
+    return np.cov(np.fromiter(_rolling_window(features, window, window_type, time, distance), dtype=np.dtype((float, window))), axis=1)
 
 def var(features: np.ndarray, window, window_type = None, time=None, distance=None):
     if window is None:
         window = len(features)
 
-    return np.var(np.fromiter(_rolling_window(features, window, window_type, time, distance), dtype=np.dtype((float, 3))), axis=1)
+    return np.var(np.fromiter(_rolling_window(features, window, window_type, time, distance), dtype=np.dtype((float, window))), axis=1)
 
 def rate_upper(features: np.ndarray, threshold, window, distance=None, time=None, window_type = None):
     if window is None:

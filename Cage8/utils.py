@@ -62,7 +62,6 @@ def compute_all(lat: np.ndarray, lon: np.ndarray, time: np.ndarray, window, thre
     index = window_type.index('time') if None in window_type else None
     if index is not None:
         aggregated_features_time = []
-        distance = basic_features[3]
         for features, threshold_value in zip(basic_features, threshold):
             aggregated_features_time.append(
                 AggregateFeatures.sum(features=features, window=window[index], window_type='time', time=time))
