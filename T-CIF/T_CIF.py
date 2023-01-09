@@ -8,27 +8,46 @@ from sklearn.ensemble import RandomForestClassifier
 import Cage8.BasicFeatures as bf
 import Cage8.AggregateFeatures as af
 
+from abc import ABC, abstractmethod
 
-class T_CIF(BaseEstimator, ClassifierMixin):
-    def __init__(self, n_trees, n_interval, min_length, seed=42):
-        self.clf = None
+
+class T_CIF(BaseEstimator, ClassifierMixin, ABC):
+    # interval types: {rp: random padding, p: perc}
+    # index criterion: {n: #features, s: space, t: time interval}
+    def __init__(self, n_trees, n_interval, min_length, interval_type="rp", seed=42):
         self.intervals = []
         self.n_trees = n_trees
         self.n_interval = n_interval
         self.min_length = min_length
         self.seed = seed
 
-    def generate_intervals(self, max_len):
-        random.seed(self.seed)
+        self.starts = None
+        self.stops = None
+        self.X = None
+        self.clf = None
 
-        starting_p = random.sample(range(0, max_len-self.min_length), self.n_interval)
-        ending_p = []
-        for p in starting_p:
-            l = random.randint(self.min_length, max_len-p)+p
+        if interval_type == "rp":
+            self.interval_type = interval_type
+            if type(min_length) != int:
+                raise ValueError(f"min_length={type(min_length)} unsupported when interval_type={interval_type}. Please"
+                                 f" use min_length=int")
 
-            ending_p.append(l)
+        elif interval_type == "p":
+            self.interval_type = interval_type
+            if type(min_length) != float:
+                raise ValueError(
+                    f"min_length={type(min_length)} unsupported when interval_type={interval_type}. Please"
+                    f" use min_length=float")
 
-        return starting_p, ending_p
+        self.interval_type = interval_type if interval_type in ["rp", "p"] else "rp"
+
+    @abstractmethod
+    def generate_intervals(self):
+        pass
+
+    @abstractmethod
+    def get_subset(self, X_row, start, stop):
+        pass
 
     def _transform(self, X, starts, stops):
         features = []
@@ -36,15 +55,19 @@ class T_CIF(BaseEstimator, ClassifierMixin):
         for (X_lat, X_lon, X_time) in X:
             feature = []
             for start, stop in zip(starts, stops):
-                feature.append(af.max(bf.speed(X_lat[start:stop], X_lon[start:stop], X_time[start:stop]), None))
+                X_lat_sub = self.get_subset(X_lat, start, stop)
+                X_lon_sub = self.get_subset(X_lon, start, stop)
+                X_time_sub = self.get_subset(X_time, start, stop)
+
+                feature.append(af.max(bf.speed(X_lat_sub, X_lon_sub, X_time_sub), None))
             features.append(feature)
 
-        return np.array(features)[:,:,0]
+        return np.array(features)[:, :, 0]
 
-    def fit(self, X, y):
-        min_l = min([len(x[0]) for x in X])
+    def fit(self, X, y):  # list of triplets (lat, lon, time)
+        self.X = X
 
-        self.starts, self.stops = self.generate_intervals(min_l)
+        self.starts, self.stops = self.generate_intervals()
 
         self.clf = RandomForestClassifier(n_estimators=self.n_trees, max_depth=2)
 
@@ -54,6 +77,3 @@ class T_CIF(BaseEstimator, ClassifierMixin):
 
     def predict(self, X):
         return self.clf.predict(self._transform(X, self.starts, self.stops))
-
-
-

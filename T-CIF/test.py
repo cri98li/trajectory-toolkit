@@ -2,8 +2,9 @@ import numpy as np
 from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split
 
-from T_CIF import T_CIF
 import pandas as pd
+
+from T_CIF_features import T_CIF_features
 
 
 def preare(df, tid_list):
@@ -13,14 +14,15 @@ def preare(df, tid_list):
     time = []
     classe = []
 
-    for _id, _classe in df[df.tid.isin(tid_list)][["tid", "class"]].groupby(by=["tid", "class"]).max().reset_index().values:
+    for _id, _classe in df[df.tid.isin(tid_list)][["tid", "class"]].groupby(
+            by=["tid", "class"]).max().reset_index().values:
         df_result = df[df.tid == _id]
         id.append(_id)
         classe.append(_classe)
 
         _lat = []
         _lon = []
-        _time =[]
+        _time = []
         for _lat_el, _lon_el, _time_el in df_result[["c1", "c2", "t"]].values:
             _time.append(_time_el)
             _lat.append(_lat_el)
@@ -31,7 +33,6 @@ def preare(df, tid_list):
         time.append(np.array(_time))
 
     return id, classe, lat, lon, time
-
 
 if __name__ == "__main__":
     df = pd.read_csv("./vehicles.zip")
@@ -45,8 +46,8 @@ if __name__ == "__main__":
     id_train, classe_train, lat_train, lon_train, time_train = preare(df, tid_train)
     id_test, classe_test, lat_test, lon_test, time_test = preare(df, tid_test)
 
-
-    tcif = T_CIF(500, 5, 10)
+    tcif = T_CIF_features(n_trees=500, n_interval=5, min_length=10,
+                          interval_type="rp")  # n_trees, n_interval, min_length, interval_type="rp", seed=42
 
     train = [(_lat, _lon, _time) for _lat, _lon, _time in zip(lat_train, lon_train, time_train)]
     test = [(_lat, _lon, _time) for _lat, _lon, _time in zip(lat_test, lon_test, time_test)]
